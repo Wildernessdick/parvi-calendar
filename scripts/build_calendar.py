@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-Rakenna Ravintola Parvin viikkopdf:istä Outlookiin tilattava iCalendar-tiedosto.
-"""
+"""Rakenna Ravintola Parvin viikkopdf:istä Outlookiin tilattava iCalendar-tiedosto."""
 
 from __future__ import annotations
 
@@ -19,30 +17,34 @@ OUTPUT_FILE = Path("parvi.ics")
 TIMEZONE = "Europe/Helsinki"
 SUMMARY = "Lounas – Ravintola Parvi"
 
-# Päiväotsikot PDF:ssä:
-# "Maanantai 23.2." jne.
+# Etsitään päiväotsikot muodossa "Maanantai 23.2." jne.
 DAY_HEADER_RE = re.compile(
-    r"(?im)^\s*(Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai)\s+(\d{1,2})\.(\d{1,2})\.\s*$"
+    r"(?i)(Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai)\s+(\d{1,2})\.(\d{1,2})\."
 )
 
 
-@dataclass(frozen=True)
+@dataclass
 class CalendarEvent:
+    """Yksi lounastapahtuma kalenterissa."""
+
     date: dt.date
     summary: str
     description: str
 
 
+
 def fetch_pdf(week: int) -> bytes | None:
-    """Lataa yksittäisen viikon PDF:n."""
+    """Lataa yksittäisen viikon PDF:n sisällön tavuina."""
     url = BASE_URL.format(week=week)
     try:
         response = requests.get(
             url,
-            timeout=25,
+            timeout=20,
             headers={"User-Agent": "Mozilla/5.0 (parvi-calendar)"},
         )
         response.raise_for_status()
+        if len(response.content) < 500:
+            return None
     except requests.RequestException:
         return None
 
@@ -50,32 +52,24 @@ def fetch_pdf(week: int) -> bytes | None:
     if "pdf" not in content_type.lower() and not response.content.startswith(b"%PDF"):
         return None
 
-    # Joissain tilanteissa serveri voi palauttaa tyhjän/turhan pienen PDF:n
-    if len(response.content) < 1500:
-        return None
-
     return response.content
+
 
 
 def extract_text(pdf_bytes: bytes) -> str:
     """Pura PDF:n koko tekstisisältö yhteen merkkijonoon."""
-    parts: list[str] = []
+    text_parts: list[str] = []
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         for page in pdf.pages:
             page_text = page.extract_text() or ""
             if page_text.strip():
-                parts.append(page_text)
-    return "\n".join(parts)
+                text_parts.append(page_text)
+    return "\n".join(text_parts)
+
 
 
 def infer_year(day: int, month: int, today: dt.date) -> int:
-    """
-    Päättele vuosi vuodenvaihteen yli.
-
-    Sääntö:
-    - jos parsed_month < current_month - 6 -> year + 1
-    - jos parsed_month > current_month + 6 -> year - 1
-    """
+    """Päättele vuosi vuodenvaihteen yli annettujen sääntöjen mukaan."""
     year = today.year
     current_month = today.month
 
@@ -84,35 +78,43 @@ def infer_year(day: int, month: int, today: dt.date) -> int:
     elif month > current_month + 6:
         year -= 1
 
-    # Validointi (karkausvuodet ym.)
+    # Varmistetaan, että päiväys on aidosti validi (esim. karkausvuosi).
     dt.date(year, month, day)
     return year
 
 
+
 def normalize_text(text: str) -> str:
-    """Siivoa kuvaus luettavaan muotoon."""
-    lines = [ln.strip() for ln in text.splitlines()]
-    cleaned = [ln for ln in lines if ln]
+    """Siivoa kuvaus yhdenmukaiseen, luettavaan muotoon."""
+    lines = [line.strip() for line in text.splitlines()]
+    cleaned = [line for line in lines if line]
     return "\n".join(cleaned)
 
 
+
 def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
-    """Löydä päivän otsikot ja niiden ruokalistat."""
+    """Löydä viikonpäivät ja niiden ruokalistat tekstistä."""
+    print("---- DEBUG TEXT SAMPLE ----")
+    print(text[:1000])
+    print("---- DEBUG MATCH COUNT ----", len(list(DAY_HEADER_RE.finditer(text))))
+
     matches = list(DAY_HEADER_RE.finditer(text))
 
-    # Tyhjän/epävalidin PDF:n tunnistus
+    # Tyhjän/epävalidin PDF:n tunnistus: ei yhtään päivän otsikkoa.
     if not matches:
         return []
 
     events: list[CalendarEvent] = []
-    for idx, m in enumerate(matches):
-        day = int(m.group(2))
-        month = int(m.group(3))
 
-        start = m.end()
+    for idx, match in enumerate(matches):
+        day = int(match.group(2))
+        month = int(match.group(3))
+
+        start = match.end()
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
         description = normalize_text(text[start:end])
 
+        # Jos kuvaus puuttuu kokonaan, lisätään silti tapahtuma tyhjällä kuvauksella.
         year = infer_year(day=day, month=month, today=today)
         event_date = dt.date(year, month, day)
 
@@ -127,6 +129,7 @@ def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
     return events
 
 
+
 def escape_ics(value: str) -> str:
     """Pakollinen iCalendar-escape tekstikentille."""
     return (
@@ -138,11 +141,12 @@ def escape_ics(value: str) -> str:
     )
 
 
+
 def build_ics(events: list[CalendarEvent]) -> str:
-    """Rakenna iCalendar-sisältö CRLF-riveillä."""
+    """Rakenna iCalendar-tiedoston sisältö CRLF-rivinvaihdoilla."""
     now_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
-    lines: list[str] = [
+    lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//parvi-calendar//MVP//FI",
@@ -152,8 +156,8 @@ def build_ics(events: list[CalendarEvent]) -> str:
         "X-WR-TIMEZONE:Europe/Helsinki",
     ]
 
-    for ev in sorted(events, key=lambda e: e.date):
-        day_str = ev.date.strftime("%Y%m%d")
+    for event in sorted(events, key=lambda ev: ev.date):
+        day_str = event.date.strftime("%Y%m%d")
         lines.extend(
             [
                 "BEGIN:VEVENT",
@@ -161,8 +165,8 @@ def build_ics(events: list[CalendarEvent]) -> str:
                 f"DTSTAMP:{now_utc}",
                 f"DTSTART;TZID={TIMEZONE}:{day_str}T120000",
                 f"DTEND;TZID={TIMEZONE}:{day_str}T130000",
-                f"SUMMARY:{escape_ics(ev.summary)}",
-                f"DESCRIPTION:{escape_ics(ev.description)}",
+                f"SUMMARY:{escape_ics(event.summary)}",
+                f"DESCRIPTION:{escape_ics(event.description)}",
                 "END:VEVENT",
             ]
         )
@@ -171,11 +175,12 @@ def build_ics(events: list[CalendarEvent]) -> str:
     return "\r\n".join(lines) + "\r\n"
 
 
+
 def build_calendar() -> str:
-    """Lataa viikot 1..52, parsii tapahtumat ja palauttaa ICS."""
+    """Lataa viikot 1..52, parsii tapahtumat ja palauttaa ICS-sisällön."""
     today = dt.date.today()
 
-    # Dedup: yksi tapahtuma per päivämäärä (myöhemmin löytyvä voittaa).
+    # Dedup: yksi tapahtuma per päivämäärä. Myöhemmin loopissa löytyvä voittaa.
     events_by_date: dict[dt.date, CalendarEvent] = {}
 
     for week in range(1, 53):
@@ -192,10 +197,11 @@ def build_calendar() -> str:
         if not week_events:
             continue
 
-        for ev in week_events:
-            events_by_date[ev.date] = ev
+        for event in week_events:
+            events_by_date[event.date] = event
 
     return build_ics(list(events_by_date.values()))
+
 
 
 def main() -> None:
