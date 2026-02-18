@@ -14,6 +14,7 @@ Tämä repo on toteutettu kokonaan tekoälyllä yhdellä promptilla. Toteutus ha
 6. Tapahtuman `UID` on muotoa `parvi-YYYYMMDD`.
 7. Jos sama päivämäärä löytyy useammin kuin kerran, pidetään vain yksi tapahtuma (duplikaatteja ei tule).
 8. Vuodenvaihde käsitellään sääntöpohjaisesti kuukauden perusteella.
+9. Event title contains the day's menu items (joined with |). Full menu in description.
 
 ## Ajastus GitHub Actionsilla
 

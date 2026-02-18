@@ -92,6 +92,40 @@ def normalize_text(text: str) -> str:
 
 
 
+def make_summary_from_description(description: str) -> str:
+    """Muodosta tapahtuman otsikko päivän ruokalistariveistä."""
+    blocked_terms = [
+        "lounashinta",
+        "vierailijat",
+        "korttimaksut",
+        "powered by tcpdf",
+        "www.tcpdf.org",
+    ]
+
+    filtered_lines: list[str] = []
+    for raw_line in description.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        lowered = line.lower()
+        if any(term in lowered for term in blocked_terms):
+            continue
+        if "€" in line or "/hlö" in lowered:
+            continue
+
+        filtered_lines.append(line)
+
+    if not filtered_lines:
+        return SUMMARY
+
+    summary = " | ".join(filtered_lines)
+    if len(summary) > 180:
+        return summary[:177] + "…"
+    return summary
+
+
+
 def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
     """Löydä viikonpäivät ja niiden ruokalistat tekstistä."""
     print("---- DEBUG TEXT SAMPLE ----")
@@ -121,7 +155,7 @@ def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
         events.append(
             CalendarEvent(
                 date=event_date,
-                summary=SUMMARY,
+                summary=make_summary_from_description(description),
                 description=description,
             )
         )
