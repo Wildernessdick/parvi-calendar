@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rakenna Ravintola Parvin viikkopdf:istä Outlookiin tilattava iCalendar-tiedosto."""
+"""Rakenna useiden ravintoloiden viikkopdf:istä Outlookiin tilattavat iCalendar-tiedostot."""
 
 from __future__ import annotations
 
@@ -12,10 +12,36 @@ from pathlib import Path
 import pdfplumber
 import requests
 
-BASE_URL = "https://sakky.fi/ravintola/parvi?action=generate_pdf__{week:02d}"
-OUTPUT_FILE = Path("parvi.ics")
 TIMEZONE = "Europe/Helsinki"
 SUMMARY = "Lounas – Ravintola Parvi"
+
+RESTAURANTS = [
+    {
+        "id": "parvi",
+        "name": "Ravintola Parvi",
+        "url_template": "https://sakky.fi/ravintola/parvi?action=generate_pdf__{week:02d}",
+    },
+    {
+        "id": "loisto",
+        "name": "Ravintola Loisto",
+        "url_template": "https://sakky.fi/ravintola/loisto?action=generate_pdf__{week:02d}",
+    },
+    {
+        "id": "silmu",
+        "name": "Ravintola Silmu",
+        "url_template": "https://sakky.fi/ravintola/ravintola-silmu?action=generate_pdf__{week:02d}",
+    },
+    {
+        "id": "helmi",
+        "name": "Ravintola Helmi",
+        "url_template": "https://sakky.fi/ravintola/ravintola-helmi?action=generate_pdf__{week:02d}",
+    },
+    {
+        "id": "helmi-henkilokunta",
+        "name": "Ravintola Helmi (Henkilökunta ja vieraat)",
+        "url_template": "https://sakky.fi/ravintola/ravintola-helmi-henkilokunta-ja-vieraat?action=generate_pdf__{week:02d}",
+    },
+]
 
 # Etsitään päiväotsikot muodossa "Maanantai 23.2." jne.
 DAY_HEADER_RE = re.compile(
@@ -32,10 +58,9 @@ class CalendarEvent:
     description: str
 
 
-
-def fetch_pdf(week: int) -> bytes | None:
+def fetch_pdf(url_template: str, week: int) -> bytes | None:
     """Lataa yksittäisen viikon PDF:n sisällön tavuina."""
-    url = BASE_URL.format(week=week)
+    url = url_template.format(week=week)
     try:
         response = requests.get(
             url,
@@ -55,7 +80,6 @@ def fetch_pdf(week: int) -> bytes | None:
     return response.content
 
 
-
 def extract_text(pdf_bytes: bytes) -> str:
     """Pura PDF:n koko tekstisisältö yhteen merkkijonoon."""
     text_parts: list[str] = []
@@ -65,7 +89,6 @@ def extract_text(pdf_bytes: bytes) -> str:
             if page_text.strip():
                 text_parts.append(page_text)
     return "\n".join(text_parts)
-
 
 
 def infer_year(day: int, month: int, today: dt.date) -> int:
@@ -78,10 +101,8 @@ def infer_year(day: int, month: int, today: dt.date) -> int:
     elif month > current_month + 6:
         year -= 1
 
-    # Varmistetaan, että päiväys on aidosti validi (esim. karkausvuosi).
     dt.date(year, month, day)
     return year
-
 
 
 def normalize_text(text: str) -> str:
@@ -89,7 +110,6 @@ def normalize_text(text: str) -> str:
     lines = [line.strip() for line in text.splitlines()]
     cleaned = [line for line in lines if line]
     return "\n".join(cleaned)
-
 
 
 def make_summary_from_description(description: str) -> str:
@@ -125,7 +145,6 @@ def make_summary_from_description(description: str) -> str:
     return summary
 
 
-
 def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
     """Löydä viikonpäivät ja niiden ruokalistat tekstistä."""
     print("---- DEBUG TEXT SAMPLE ----")
@@ -133,13 +152,10 @@ def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
     print("---- DEBUG MATCH COUNT ----", len(list(DAY_HEADER_RE.finditer(text))))
 
     matches = list(DAY_HEADER_RE.finditer(text))
-
-    # Tyhjän/epävalidin PDF:n tunnistus: ei yhtään päivän otsikkoa.
     if not matches:
         return []
 
     events: list[CalendarEvent] = []
-
     for idx, match in enumerate(matches):
         day = int(match.group(2))
         month = int(match.group(3))
@@ -148,7 +164,6 @@ def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
         description = normalize_text(text[start:end])
 
-        # Jos kuvaus puuttuu kokonaan, lisätään silti tapahtuma tyhjällä kuvauksella.
         year = infer_year(day=day, month=month, today=today)
         event_date = dt.date(year, month, day)
 
@@ -163,7 +178,6 @@ def parse_events(text: str, today: dt.date) -> list[CalendarEvent]:
     return events
 
 
-
 def escape_ics(value: str) -> str:
     """Pakollinen iCalendar-escape tekstikentille."""
     return (
@@ -175,8 +189,7 @@ def escape_ics(value: str) -> str:
     )
 
 
-
-def build_ics(events: list[CalendarEvent]) -> str:
+def build_ics(events: list[CalendarEvent], restaurant_id: str, restaurant_name: str) -> str:
     """Rakenna iCalendar-tiedoston sisältö CRLF-rivinvaihdoilla."""
     now_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
@@ -186,7 +199,7 @@ def build_ics(events: list[CalendarEvent]) -> str:
         "PRODID:-//parvi-calendar//MVP//FI",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:Ravintola Parvi Lounas",
+        f"X-WR-CALNAME:{restaurant_name}",
         "X-WR-TIMEZONE:Europe/Helsinki",
     ]
 
@@ -195,7 +208,7 @@ def build_ics(events: list[CalendarEvent]) -> str:
         lines.extend(
             [
                 "BEGIN:VEVENT",
-                f"UID:parvi-{day_str}",
+                f"UID:{restaurant_id}-{day_str}",
                 f"DTSTAMP:{now_utc}",
                 f"DTSTART;TZID={TIMEZONE}:{day_str}T120000",
                 f"DTEND;TZID={TIMEZONE}:{day_str}T130000",
@@ -209,39 +222,46 @@ def build_ics(events: list[CalendarEvent]) -> str:
     return "\r\n".join(lines) + "\r\n"
 
 
-
-def build_calendar() -> str:
-    """Lataa viikot 1..52, parsii tapahtumat ja palauttaa ICS-sisällön."""
+def build_calendars() -> None:
+    """Lataa viikot 1..52 ja kirjoittaa yhden .ics-kalenterin per ravintola."""
     today = dt.date.today()
 
-    # Dedup: yksi tapahtuma per päivämäärä. Myöhemmin loopissa löytyvä voittaa.
-    events_by_date: dict[dt.date, CalendarEvent] = {}
+    for restaurant in RESTAURANTS:
+        restaurant_id = restaurant["id"]
+        restaurant_name = restaurant["name"]
+        url_template = restaurant["url_template"]
 
-    for week in range(1, 53):
-        pdf_bytes = fetch_pdf(week)
-        if not pdf_bytes:
-            continue
+        events_by_date: dict[dt.date, CalendarEvent] = {}
 
-        try:
-            text = extract_text(pdf_bytes)
-        except Exception:
-            continue
+        for week in range(1, 53):
+            pdf_bytes = fetch_pdf(url_template=url_template, week=week)
+            if not pdf_bytes:
+                continue
 
-        week_events = parse_events(text=text, today=today)
-        if not week_events:
-            continue
+            try:
+                text = extract_text(pdf_bytes)
+            except Exception:
+                continue
 
-        for event in week_events:
-            events_by_date[event.date] = event
+            week_events = parse_events(text=text, today=today)
+            if not week_events:
+                continue
 
-    return build_ics(list(events_by_date.values()))
+            for event in week_events:
+                events_by_date[event.date] = event
 
+        ics_content = build_ics(
+            list(events_by_date.values()),
+            restaurant_id=restaurant_id,
+            restaurant_name=restaurant_name,
+        )
+        output_file = Path(f"{restaurant_id}.ics")
+        output_file.write_text(ics_content, encoding="utf-8", newline="")
+        print(f"Kirjoitettu {output_file} ({len(ics_content)} merkkiä)")
 
 
 def main() -> None:
-    ics_content = build_calendar()
-    OUTPUT_FILE.write_text(ics_content, encoding="utf-8", newline="")
-    print(f"Kirjoitettu {OUTPUT_FILE} ({len(ics_content)} merkkiä)")
+    build_calendars()
 
 
 if __name__ == "__main__":

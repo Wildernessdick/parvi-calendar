@@ -29,15 +29,15 @@ jobs:
       - name: Build calendar
         run: python scripts/build_calendar.py
 
-      - name: Commit and push parvi.ics if changed
+      - name: Commit and push calendars if changed
         run: |
-          if git diff --quiet -- parvi.ics; then
-            echo "No changes in parvi.ics"
+          if git diff --quiet -- *.ics; then
+            echo "No changes in calendar files"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add parvi.ics
-          git commit -m "chore: update parvi.ics"
+          git add *.ics
+          git commit -m "chore: update restaurant calendars"
           git push

@@ -1,20 +1,29 @@
 # parvi-calendar
 
-Tämä repo on toteutettu kokonaan tekoälyllä yhdellä promptilla. Toteutus hakee Ravintola Parvin viikkokohtaiset PDF-ruokalistat, purkaa niistä arkipäivien lounassisällöt ja julkaisee Outlookiin (ja muihin kalenteriohjelmiin) tilattavan `.ics`-kalenterin tiedostona `parvi.ics`.
+Tämä repo on toteutettu kokonaan tekoälyllä. Toteutus hakee Sakky-ravintoloiden viikkokohtaiset PDF-ruokalistat, purkaa niistä arkipäivien lounassisällöt ja julkaisee Outlookiin (ja muihin kalenteriohjelmiin) tilattavat `.ics`-kalenterit.
 
 ## Miten tämä toimii
 
-1. Skripti `scripts/build_calendar.py` käy viikot `01..52` läpi URL-osoitteista:
-   - `https://sakky.fi/ravintola/parvi?action=generate_pdf__VV`
+1. Skripti `scripts/build_calendar.py` käy jokaisen ravintolan viikot `01..52` läpi ravintolakohtaisista URL-osoitteista.
 2. Jokainen PDF puretaan tekstiksi `pdfplumber`-kirjastolla.
 3. Päiväotsikot tunnistetaan regexillä:
    - `Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai + dd.mm.`
 4. Päiväotsikon jälkeinen teksti kerätään seuraavaan päiväotsikkoon asti ja tallennetaan tapahtuman `DESCRIPTION`-kenttään.
 5. Jokaiselle löydetylle päivälle luodaan tapahtuma klo 12:00–13:00 aikavyöhykkeellä `Europe/Helsinki`.
-6. Tapahtuman `UID` on muotoa `parvi-YYYYMMDD`.
+6. Tapahtuman `UID` on muotoa `<restaurant-id>-YYYYMMDD`.
 7. Jos sama päivämäärä löytyy useammin kuin kerran, pidetään vain yksi tapahtuma (duplikaatteja ei tule).
 8. Vuodenvaihde käsitellään sääntöpohjaisesti kuukauden perusteella.
 9. Event title contains the day's menu items (joined with |). Full menu in description.
+
+## Available calendars
+
+- `https://<username>.github.io/<repo>/parvi.ics`
+- `https://<username>.github.io/<repo>/loisto.ics`
+- `https://<username>.github.io/<repo>/silmu.ics`
+- `https://<username>.github.io/<repo>/helmi.ics`
+- `https://<username>.github.io/<repo>/helmi-henkilokunta.ics`
+
+Outlook → Add calendar → Subscribe from web → paste chosen URL.
 
 ## Ajastus GitHub Actionsilla
 
@@ -25,7 +34,7 @@ Workflow löytyy tiedostosta `.github/workflows/build.yml` ja se ajetaan:
 Workflow:
 - asentaa riippuvuudet `requests` ja `pdfplumber`
 - ajaa skriptin `python scripts/build_calendar.py`
-- committaa ja pushaa `parvi.ics`-tiedoston vain jos sisältö muuttui
+- committaa ja pushaa kaikki `*.ics`-tiedostot vain jos sisältö muuttui
 
 ## Ota GitHub Pages käyttöön
 
@@ -34,25 +43,6 @@ Workflow:
 3. Valitse branchiksi **main** ja kansioksi **/(root)**.
 4. Tallenna.
 
-Koska `parvi.ics` kirjoitetaan repo-rootiin, GitHub Pages voi palvella sen suoraan.
-
-## Kalenterin URL
-
-Korvaa placeholderit omilla arvoillasi:
-
-`https://<kayttajanimi>.github.io/<repo>/parvi.ics`
-
-Esimerkki tämän repon nimellä:
-
-`https://<kayttajanimi>.github.io/parvi-calendar/parvi.ics`
-
-## Outlook-tilaus
-
-Outlookissa:
-
-1. **Add calendar**
-2. **Subscribe from web**
-3. Liitä `.ics`-URL (esim. GitHub Pages -osoite)
-4. Tallenna tilaus
+Koska kalenterit kirjoitetaan repo-rootiin (`parvi.ics`, `loisto.ics`, `silmu.ics`, `helmi.ics`, `helmi-henkilokunta.ics`), GitHub Pages voi palvella ne suoraan.
 
 > Huomio: Outlook ei välttämättä päivitä web-kalentereita heti. Päivityksissä voi olla viivettä.

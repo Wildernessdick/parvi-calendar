@@ -3,6 +3,6 @@ VERSION:2.0
 PRODID:-//parvi-calendar//MVP//FI
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Ravintola Parvi
+X-WR-CALNAME:Ravintola Loisto
 X-WR-TIMEZONE:Europe/Helsinki
 END:VCALENDAR
