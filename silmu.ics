@@ -5,4 +5,1012 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Ravintola Silmu
 X-WR-TIMEZONE:Europe/Helsinki
+BEGIN:VEVENT
+UID:silmu-20250901
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250901T120000
+DTEND;TZID=Europe/Helsinki:20250901T130000
+SUMMARY:bbq-kasvispaistosta L \, G | perunaa | tomaattista jauhelihaperunalaatikkoa L \, G
+DESCRIPTION:bbq-kasvispaistosta L \, G\nperunaa\ntomaattista jauhelihaperunalaatikkoa L \, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250902
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250902T120000
+DTEND;TZID=Europe/Helsinki:20250902T130000
+SUMMARY:kasviskormaa L \, G | basmatiriisiä | lohipyöryköitä L | kermaviilikastiketta L\,G\, perunaa
+DESCRIPTION:kasviskormaa L \, G\nbasmatiriisiä\nlohipyöryköitä L\nkermaviilikastiketta L\,G\, perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250903
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250903T120000
+DTEND;TZID=Europe/Helsinki:20250903T130000
+SUMMARY:soija-hernekeittoa G \, M | hernekeittoa G \, M | ohukaisia\, hilloa
+DESCRIPTION:soija-hernekeittoa G \, M\nhernekeittoa G \, M\nohukaisia\, hilloa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250904
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250904T120000
+DTEND;TZID=Europe/Helsinki:20250904T130000
+SUMMARY:pinaattiohukaisia L | perunasosetta L\,G
+DESCRIPTION:pinaattiohukaisia L\nperunasosetta L\,G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250907
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250907T120000
+DTEND;TZID=Europe/Helsinki:20250907T130000
+SUMMARY:opiskelijoille maksuton | Savon | sweet & sour broilerikastike G \, M | ammattiopiston henkilökunta | riisi\, peruna
+DESCRIPTION:Lounashinta: kasvispyörykät L\n6\,30 € /opiskelija | perustutkinto- riisi\, peruna\nopiskelijoille maksuton | Savon\nsweet & sour broilerikastike G \, M\nammattiopiston henkilökunta\nriisi\, peruna\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250908
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250908T120000
+DTEND;TZID=Europe/Helsinki:20250908T130000
+SUMMARY:kasvislasagnette L | makaronivuoka L
+DESCRIPTION:kasvislasagnette L\nmakaronivuoka L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250909
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250909T120000
+DTEND;TZID=Europe/Helsinki:20250909T130000
+SUMMARY:pinaattikeitto L | lihakeitto G \, M | riisipiirakoita | omena-kaurapaistos L | vaniljakastiketta L\,G
+DESCRIPTION:pinaattikeitto L\nlihakeitto G \, M\nriisipiirakoita\nomena-kaurapaistos L\nvaniljakastiketta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250910
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250910T120000
+DTEND;TZID=Europe/Helsinki:20250910T130000
+SUMMARY:jalopenanugetit M | kermaviilikastike L\,G\, peruna | seilorin turskaa L | kermaviilikastike L\,G\, peruna
+DESCRIPTION:jalopenanugetit M\nkermaviilikastike L\,G\, peruna\nseilorin turskaa L\nkermaviilikastike L\,G\, peruna
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250911
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250911T120000
+DTEND;TZID=Europe/Helsinki:20250911T130000
+SUMMARY:kesäkurpitsakastike L | peruna | jauhelihakastike M | peruna
+DESCRIPTION:kesäkurpitsakastike L\nperuna\njauhelihakastike M\nperuna\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250914
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250914T120000
+DTEND;TZID=Europe/Helsinki:20250914T130000
+SUMMARY:opiskelijoille maksuton | Savon | nakkikastike M | ammattiopiston henkilökunta | peruna
+DESCRIPTION:Lounashinta: vegaaninen tikka masala G \, M\n6\,30 € /opiskelija | perustutkinto- riisi\, peruna\nopiskelijoille maksuton | Savon\nnakkikastike M\nammattiopiston henkilökunta\nperuna\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250915
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250915T120000
+DTEND;TZID=Europe/Helsinki:20250915T130000
+SUMMARY:sweet & sour nuudelivuoka L | lohikiusaus L \, G
+DESCRIPTION:sweet & sour nuudelivuoka L\nlohikiusaus L \, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250916
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250916T120000
+DTEND;TZID=Europe/Helsinki:20250916T130000
+SUMMARY:pinaatti-kesäkurpitsalasagnette L \, G | broileripyörykät M | currykastike L\,G\, riisi\, peruna
+DESCRIPTION:pinaatti-kesäkurpitsalasagnette L \, G\nbroileripyörykät M\ncurrykastike L\,G\, riisi\, peruna
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250917
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250917T120000
+DTEND;TZID=Europe/Helsinki:20250917T130000
+SUMMARY:thaimaalainen mifukeitto L | tomaattinen jauhelihakeitto G \, M | kahvi\, tee\, pieni makea
+DESCRIPTION:thaimaalainen mifukeitto L\ntomaattinen jauhelihakeitto G \, M\nkahvi\, tee\, pieni makea
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250918
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250918T120000
+DTEND;TZID=Europe/Helsinki:20250918T130000
+SUMMARY:Karibian kasvispihvejä L | jugurttikastike L\,G\, peruna | lindströminpihvejä | jugurttikastike L\,G\, peruna
+DESCRIPTION:Karibian kasvispihvejä L\njugurttikastike L\,G\, peruna\nlindströminpihvejä\njugurttikastike L\,G\, peruna\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250921
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250921T120000
+DTEND;TZID=Europe/Helsinki:20250921T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Lihapyöryköitä L\, M perunaa\, kermakastiketta\n6\,30 € /opiskelija | perustutkinto- Kasvipyöryköitä\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250922
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250922T120000
+DTEND;TZID=Europe/Helsinki:20250922T130000
+SUMMARY:Broilerikeittoa L \, G | Rakuuna porkkanasosekeittoa
+DESCRIPTION:8\,40 €\nBroilerikeittoa L \, G\nRakuuna porkkanasosekeittoa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250923
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250923T120000
+DTEND;TZID=Europe/Helsinki:20250923T130000
+SUMMARY:Balermonpastavuokaa L | Balermonpastavuokaa L
+DESCRIPTION:Balermonpastavuokaa L\nBalermonpastavuokaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250924
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250924T120000
+DTEND;TZID=Europe/Helsinki:20250924T130000
+SUMMARY:Bolognesekastiketta L\, G perunaa | Marokkolaista kasvipataa L\, G riisiä
+DESCRIPTION:Bolognesekastiketta L\, G perunaa\nMarokkolaista kasvipataa L\, G riisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250925
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250925T120000
+DTEND;TZID=Europe/Helsinki:20250925T130000
+SUMMARY:Uunimakkaraa L\, G perunasosetta L\, G | Täytettyä paprikaa L\, G
+DESCRIPTION:Uunimakkaraa L\, G perunasosetta L\, G\nTäytettyä paprikaa L\, G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250928
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250928T120000
+DTEND;TZID=Europe/Helsinki:20250928T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kinkkukastiketta\, luomupastaa\n6\,30 € /opiskelija | perustutkinto- Välimeren kasvispataa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250929
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250929T120000
+DTEND;TZID=Europe/Helsinki:20250929T130000
+SUMMARY:Jauhelihakeittoa L\, M\, G | Koskenlaskijan sienikeittoa L\, G
+DESCRIPTION:8\,40 €\nJauhelihakeittoa L\, M\, G\nKoskenlaskijan sienikeittoa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20250930
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20250930T120000
+DTEND;TZID=Europe/Helsinki:20250930T130000
+SUMMARY:Paneroitua kalaa\, perunasosetta\, ranchkstiketta | Kasvismureketta
+DESCRIPTION:Paneroitua kalaa\, perunasosetta\, ranchkstiketta\nKasvismureketta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251001
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251001T120000
+DTEND;TZID=Europe/Helsinki:20251001T130000
+SUMMARY:Taco-broilerilasagnettea L | Kasvispastavuokaa L
+DESCRIPTION:Taco-broilerilasagnettea L\nKasvispastavuokaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251002
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251002T120000
+DTEND;TZID=Europe/Helsinki:20251002T130000
+SUMMARY:Nuudelivuokaa | Nuudelivuokaa
+DESCRIPTION:Nuudelivuokaa\nNuudelivuokaa\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251005
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251005T120000
+DTEND;TZID=Europe/Helsinki:20251005T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kananugetteja L\, perunasosetta L\, G\n6\,30 € /opiskelija | perustutkinto- Kasvisnugetteja L\, perunasosetta L\, G\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251006
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251006T120000
+DTEND;TZID=Europe/Helsinki:20251006T130000
+SUMMARY:Makkaraperunat M\, G kahvia\, teetä ja pientä | makeaa | Täytettyä paprikaa L\, G
+DESCRIPTION:8\,40 €\nMakkaraperunat M\, G kahvia\, teetä ja pientä\nmakeaa\nTäytettyä paprikaa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251007
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251007T120000
+DTEND;TZID=Europe/Helsinki:20251007T130000
+SUMMARY:Kaalilaatikkoa M | Perunavelliä L\, G kasvis- ja lihapiirakkaa L
+DESCRIPTION:Kaalilaatikkoa M\nPerunavelliä L\, G kasvis- ja lihapiirakkaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251008
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251008T120000
+DTEND;TZID=Europe/Helsinki:20251008T130000
+SUMMARY:Kebabia tomaattikastikkeessa L\, G\, riisiä | Kasvispihviä L\, G
+DESCRIPTION:Kebabia tomaattikastikkeessa L\, G\, riisiä\nKasvispihviä L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251009
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251009T120000
+DTEND;TZID=Europe/Helsinki:20251009T130000
+SUMMARY:Hampurilainen L\, lohkoperunoita M\, G | Kasvishampurilainen L\, lohkoprunoita L
+DESCRIPTION:Hampurilainen L\, lohkoperunoita M\, G\nKasvishampurilainen L\, lohkoprunoita L\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251019
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251019T120000
+DTEND;TZID=Europe/Helsinki:20251019T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kanaa sweet&sour L\, G riisiä\n6\,30 € /opiskelija | perustutkinto- Kasvispyöryköitä G\, L paprikamajoneesia G\, L\, M\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251020
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251020T120000
+DTEND;TZID=Europe/Helsinki:20251020T130000
+SUMMARY:Makaronilaatikkoa L | Kasvislasagnettea L
+DESCRIPTION:8\,40 €\nMakaronilaatikkoa L\nKasvislasagnettea L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251021
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251021T120000
+DTEND;TZID=Europe/Helsinki:20251021T130000
+SUMMARY:Nuudeli-broilerikeittoa L | Nuudeli-kasviskeittoa L\, kaurahiutale-omenapaistosta\, | vaniljakastiketta L
+DESCRIPTION:Nuudeli-broilerikeittoa L\nNuudeli-kasviskeittoa L\, kaurahiutale-omenapaistosta\,\nvaniljakastiketta L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251022
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251022T120000
+DTEND;TZID=Europe/Helsinki:20251022T130000
+SUMMARY:Paneroitua kalaa\, perunaa\, kermaviilikastiketta | Kasvispyöryköitä G\, L\, M
+DESCRIPTION:Paneroitua kalaa\, perunaa\, kermaviilikastiketta\nKasvispyöryköitä G\, L\, M
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251023
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251023T120000
+DTEND;TZID=Europe/Helsinki:20251023T130000
+SUMMARY:Jauhelihamureketta L\, perunaa\, ruskeaa | kastiketta | Feta-kasvispihviä G\, kesäkurpitsakastiketta
+DESCRIPTION:Jauhelihamureketta L\, perunaa\, ruskeaa\nkastiketta\nFeta-kasvispihviä G\, kesäkurpitsakastiketta\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251026
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251026T120000
+DTEND;TZID=Europe/Helsinki:20251026T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Nakkikastiketta L\, G perunaa\n6\,30 € /opiskelija | perustutkinto- Tikka masala VE\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251027
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251027T120000
+DTEND;TZID=Europe/Helsinki:20251027T130000
+SUMMARY:Lohikiusausta | Nuudelivuokaa
+DESCRIPTION:8\,40 €\nLohikiusausta\nNuudelivuokaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251028
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251028T120000
+DTEND;TZID=Europe/Helsinki:20251028T130000
+SUMMARY:Broileripyöryköitä L\, M riisiä\, currykastiketta | Kesäkurpitsa-pinaattilasagnea
+DESCRIPTION:Broileripyöryköitä L\, M riisiä\, currykastiketta\nKesäkurpitsa-pinaattilasagnea
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251029
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251029T120000
+DTEND;TZID=Europe/Helsinki:20251029T130000
+SUMMARY:Jauhelihakeittoa L\, M \, G | Kasviskeittoa Thaimaalaisittain L
+DESCRIPTION:Jauhelihakeittoa L\, M \, G\nKasviskeittoa Thaimaalaisittain L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251030
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251030T120000
+DTEND;TZID=Europe/Helsinki:20251030T130000
+SUMMARY:Lindströminpihviä L\, perunaa\, ruskeaa kastiketta | Kasvipihviä G\, L\, M
+DESCRIPTION:Lindströminpihviä L\, perunaa\, ruskeaa kastiketta\nKasvipihviä G\, L\, M\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251102
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251102T120000
+DTEND;TZID=Europe/Helsinki:20251102T130000
+SUMMARY:opiskelijoille maksuton | Savon Kesäkurpitsa-pinaattilasagnea | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Jauhelihapyöryköitä L\, M perunaa ja ruskeaa\n6\,30 € /opiskelija | perustutkinto- kastiketta\nopiskelijoille maksuton | Savon Kesäkurpitsa-pinaattilasagnea\nammattiopiston henkilökunta\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251103
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251103T120000
+DTEND;TZID=Europe/Helsinki:20251103T130000
+SUMMARY:Kanakeittoa L\, M | Porkkanasosekeittoa\, L\, G
+DESCRIPTION:Kanakeittoa L\, M\nPorkkanasosekeittoa\, L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251104
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251104T120000
+DTEND;TZID=Europe/Helsinki:20251104T130000
+SUMMARY:Palermon kasvispastavuokaa
+DESCRIPTION:Palermon kasvispastavuokaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251105
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251105T120000
+DTEND;TZID=Europe/Helsinki:20251105T130000
+SUMMARY:Bolognesekastiketta L\, G\, perunaa | Chilin sin carne L\, G\, perunaa
+DESCRIPTION:Bolognesekastiketta L\, G\, perunaa\nChilin sin carne L\, G\, perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251106
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251106T120000
+DTEND;TZID=Europe/Helsinki:20251106T130000
+SUMMARY:Uunimakkaraa L\, G\, perunamuussia L\, G | Täytettyjä paprikoita
+DESCRIPTION:Uunimakkaraa L\, G\, perunamuussia L\, G\nTäytettyjä paprikoita\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251109
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251109T120000
+DTEND;TZID=Europe/Helsinki:20251109T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kinkkukastiketta L\, G\, pennepastaa L\n6\,30 € /opiskelija | perustutkinto- Kasvisratauille L\, G\, pennepastaa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251110
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251110T120000
+DTEND;TZID=Europe/Helsinki:20251110T130000
+SUMMARY:Jauhelihakeittoa L\, G\, M | Koskenlaskijan sienikeittoa L\, G
+DESCRIPTION:8\,40 €\nJauhelihakeittoa L\, G\, M\nKoskenlaskijan sienikeittoa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251111
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251111T120000
+DTEND;TZID=Europe/Helsinki:20251111T130000
+SUMMARY:Paneroitua kalaa L\, perunamuussia L\, G | Kasvismureketta L\, G \, perunamuussia
+DESCRIPTION:Paneroitua kalaa L\, perunamuussia L\, G\nKasvismureketta L\, G \, perunamuussia
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251112
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251112T120000
+DTEND;TZID=Europe/Helsinki:20251112T130000
+SUMMARY:Taco-broilerilasagnettea | Kasvispastavuokaa
+DESCRIPTION:Taco-broilerilasagnettea\nKasvispastavuokaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251113
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251113T120000
+DTEND;TZID=Europe/Helsinki:20251113T130000
+SUMMARY:Makkarakeittoa L\, G | Kasvissosekeittoa L \,G
+DESCRIPTION:Makkarakeittoa L\, G\nKasvissosekeittoa L \,G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251116
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251116T120000
+DTEND;TZID=Europe/Helsinki:20251116T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Jauhelihapihviä L\, M perunasosetta L\n6\,30 € /opiskelija | perustutkinto- Välimeren kasvisvuokaa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251117
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251117T120000
+DTEND;TZID=Europe/Helsinki:20251117T130000
+SUMMARY:Butter chikcen\, riisiä | Kasvispyöryköitä G\, L\, M
+DESCRIPTION:8\,40 €\nButter chikcen\, riisiä\nKasvispyöryköitä G\, L\, M
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251118
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251118T120000
+DTEND;TZID=Europe/Helsinki:20251118T130000
+SUMMARY:Kalakeittoa\, hedelmä | Kasvissosekeittoa\, hedelmä
+DESCRIPTION:Kalakeittoa\, hedelmä\nKasvissosekeittoa\, hedelmä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251119
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251119T120000
+DTEND;TZID=Europe/Helsinki:20251119T130000
+SUMMARY:Kebabia tomaattikastikkeessa L\, riisiä | Kasvismunakasrullaa L
+DESCRIPTION:Kebabia tomaattikastikkeessa L\, riisiä\nKasvismunakasrullaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251120
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251120T120000
+DTEND;TZID=Europe/Helsinki:20251120T130000
+SUMMARY:Jauheliha-perunasoselaatikkoa G\, L | Chow Mein kasviskastiketta\, perunaa
+DESCRIPTION:Jauheliha-perunasoselaatikkoa G\, L\nChow Mein kasviskastiketta\, perunaa\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251123
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251123T120000
+DTEND;TZID=Europe/Helsinki:20251123T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Provencen lihapataa L\, perunaa\n6\,30 € /opiskelija | perustutkinto- Slaavilaista kasvispataa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251124
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251124T120000
+DTEND;TZID=Europe/Helsinki:20251124T130000
+SUMMARY:Jauheliha-perunalaatikkoa | BBQ kasvispaistosta
+DESCRIPTION:8\,40 €\nJauheliha-perunalaatikkoa\nBBQ kasvispaistosta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251125
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251125T120000
+DTEND;TZID=Europe/Helsinki:20251125T130000
+SUMMARY:Lohipyöryköitä G\, L perunaa | Kasviskormaa\, riisiä
+DESCRIPTION:Lohipyöryköitä G\, L perunaa\nKasviskormaa\, riisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251126
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251126T120000
+DTEND;TZID=Europe/Helsinki:20251126T130000
+SUMMARY:Hernekeittoa G\, L\, M ohukaisia L mansikkahilloa | Soija-hernekeittoa G\, L\, M
+DESCRIPTION:Hernekeittoa G\, L\, M ohukaisia L mansikkahilloa\nSoija-hernekeittoa G\, L\, M
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251127
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251127T120000
+DTEND;TZID=Europe/Helsinki:20251127T130000
+SUMMARY:Lihapyryöryköitä L\, M\, perunasosetta L | Pinaattiohukaisia
+DESCRIPTION:Lihapyryöryköitä L\, M\, perunasosetta L\nPinaattiohukaisia\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251130
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251130T120000
+DTEND;TZID=Europe/Helsinki:20251130T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kanaa sweet &sour M\,G riisiä\n6\,30 € /opiskelija | perustutkinto- Kasvispyöryköitä L\, paprikamajoneesia L\,G\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251201
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251201T120000
+DTEND;TZID=Europe/Helsinki:20251201T130000
+SUMMARY:Makaronivuokaa L | Kasvislasagnettea L
+DESCRIPTION:8\,40 €\nMakaronivuokaa L\nKasvislasagnettea L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251202
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251202T120000
+DTEND;TZID=Europe/Helsinki:20251202T130000
+SUMMARY:Nuudeli-broilerikeittoa L kaurahiutale- | omenapaistosta L vaniljakastiketta L\,G | Nuudeli-kasviskeittoa L\,G\, kaurahiutale-omenapaistosta L \, | vaniljakastiketta L\,G
+DESCRIPTION:Nuudeli-broilerikeittoa L kaurahiutale-\nomenapaistosta L vaniljakastiketta L\,G\nNuudeli-kasviskeittoa L\,G\, kaurahiutale-omenapaistosta L \,\nvaniljakastiketta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251203
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251203T120000
+DTEND;TZID=Europe/Helsinki:20251203T130000
+SUMMARY:Paneroitua kalaa L perunaa\, kermaviilikastiketta | L\,G | Kasvispyöryköitä L\, perunaa\, kermaviilikastiketta L\,G
+DESCRIPTION:Paneroitua kalaa L perunaa\, kermaviilikastiketta\nL\,G\nKasvispyöryköitä L\, perunaa\, kermaviilikastiketta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251204
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251204T120000
+DTEND;TZID=Europe/Helsinki:20251204T130000
+SUMMARY:Koskenlaskijan jauhelihapihvejä L perunasosetta | L\,G jäätelöä | Feta-kasvispihvejä L\, perunasosetta L\,G\, jäätelöä
+DESCRIPTION:Koskenlaskijan jauhelihapihvejä L perunasosetta\nL\,G jäätelöä\nFeta-kasvispihvejä L\, perunasosetta L\,G\, jäätelöä\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251207
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251207T120000
+DTEND;TZID=Europe/Helsinki:20251207T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Nakkikastiketta L perunaa\n6\,30 € /opiskelija | perustutkinto- Vegaanista tikkamasalaa M\,G perunaa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251208
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251208T120000
+DTEND;TZID=Europe/Helsinki:20251208T130000
+SUMMARY:Lohikiusausta L\,G | Mifu-nuudelivuokaa L
+DESCRIPTION:8\,40 €\nLohikiusausta L\,G\nMifu-nuudelivuokaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251209
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251209T120000
+DTEND;TZID=Europe/Helsinki:20251209T130000
+SUMMARY:Broileripyöryköitä M kylmää currykastiketta L\,G\, | basmatiriisiä perunaa | Kesäkurpitsa-pinaattilasagnea L
+DESCRIPTION:Broileripyöryköitä M kylmää currykastiketta L\,G\,\nbasmatiriisiä perunaa\nKesäkurpitsa-pinaattilasagnea L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251210
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251210T120000
+DTEND;TZID=Europe/Helsinki:20251210T130000
+SUMMARY:Tomaattista jauhelihakeittoa M\,G\, kahvia teetä | keksejä | Thaimaalaista mifukeittoa L kahvia teetä keksejä
+DESCRIPTION:Tomaattista jauhelihakeittoa M\,G\, kahvia teetä\nkeksejä\nThaimaalaista mifukeittoa L kahvia teetä keksejä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251211
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251211T120000
+DTEND;TZID=Europe/Helsinki:20251211T130000
+SUMMARY:Lindströminpihvejä L ruskeaa kastiketta | perunasosetta | kasvispihvejä perunasosetta
+DESCRIPTION:Lindströminpihvejä L ruskeaa kastiketta\nperunasosetta\nkasvispihvejä perunasosetta\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251214
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251214T120000
+DTEND;TZID=Europe/Helsinki:20251214T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Lohikeittoa L\,G hedelmä\n6\,30 € /opiskelija | perustutkinto- Juustoista kasvissosekeittoa L\,G hedelmä\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251215
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251215T120000
+DTEND;TZID=Europe/Helsinki:20251215T130000
+SUMMARY:Joululounas
+DESCRIPTION:8\,40 €\nJoululounas\nVierashinta 21 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251216
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251216T120000
+DTEND;TZID=Europe/Helsinki:20251216T130000
+SUMMARY:Jauhelihabolognesea M \,G pastaa perunaa | Kasvispihvejä L kylmää yrttikastiketta L\,G pastaa perunaa
+DESCRIPTION:Jauhelihabolognesea M \,G pastaa perunaa\nKasvispihvejä L kylmää yrttikastiketta L\,G pastaa perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251217
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251217T120000
+DTEND;TZID=Europe/Helsinki:20251217T130000
+SUMMARY:Butter chicken L\,G riisiä perunaa | Kukkakaalikormaa L\,G riisiä perunaa
+DESCRIPTION:Butter chicken L\,G riisiä perunaa\nKukkakaalikormaa L\,G riisiä perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251218
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251218T120000
+DTEND;TZID=Europe/Helsinki:20251218T130000
+SUMMARY:Joulupuuroa sekahedelmäkiisseliä
+DESCRIPTION:Joulupuuroa sekahedelmäkiisseliä\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20251221
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20251221T120000
+DTEND;TZID=Europe/Helsinki:20251221T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Ravintola suljettu 22.12-6.1.2026\n6\,30 € /opiskelija | perustutkinto-\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta\n8\,40 €\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260105
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260105T120000
+DTEND;TZID=Europe/Helsinki:20260105T130000
+SUMMARY:opiskelijoille maksuton | Savon
+DESCRIPTION:Lounashinta: Ravintola suljettu\n6\,30 € /opiskelija | perustutkinto-\nopiskelijoille maksuton | Savon
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260106
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260106T120000
+DTEND;TZID=Europe/Helsinki:20260106T130000
+SUMMARY:ammattiopiston henkilökunta Ravintola suljettu
+DESCRIPTION:ammattiopiston henkilökunta Ravintola suljettu\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260107
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260107T120000
+DTEND;TZID=Europe/Helsinki:20260107T130000
+SUMMARY:Paneroituja lohipihvejä L kermaviilikastiketta L\,G | perunasosetta L\,G | Palermon kasvispastaa L
+DESCRIPTION:Paneroituja lohipihvejä L kermaviilikastiketta L\,G\nperunasosetta L\,G\nPalermon kasvispastaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260108
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260108T120000
+DTEND;TZID=Europe/Helsinki:20260108T130000
+SUMMARY:Hernekeittoa M\,G ohukaisia L mansikkahilloa | Soijarouhe-hernekeittoa M\,G ohukaisia L mansikkahilloa
+DESCRIPTION:Hernekeittoa M\,G ohukaisia L mansikkahilloa\nSoijarouhe-hernekeittoa M\,G ohukaisia L mansikkahilloa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260109
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260109T120000
+DTEND;TZID=Europe/Helsinki:20260109T130000
+SUMMARY:Lihapyöryköitä L perunaa tomaattista ruskeaa | kastiketta L\,G | Täytettyä paprikaa L\,G jogurttikastiketta L\,G
+DESCRIPTION:Lihapyöryköitä L perunaa tomaattista ruskeaa\nkastiketta L\,G\nTäytettyä paprikaa L\,G jogurttikastiketta L\,G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260112
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260112T120000
+DTEND;TZID=Europe/Helsinki:20260112T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Kinkkukastiketta L pastaa\n6\,30 € /opiskelija | perustutkinto- Kasvis ratatoullea L pastaa\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260113
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260113T120000
+DTEND;TZID=Europe/Helsinki:20260113T130000
+SUMMARY:Jauhelihakeittoa M\,G hedelmä | Koskenlaskijan sienikeittoa hedelmä
+DESCRIPTION:8\,40 €\nJauhelihakeittoa M\,G hedelmä\nKoskenlaskijan sienikeittoa hedelmä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260114
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260114T120000
+DTEND;TZID=Europe/Helsinki:20260114T130000
+SUMMARY:Cheddarlohta L\,G perunasosetta L G | Kukkakaalikormaa M\,G basmatiriisiä
+DESCRIPTION:Cheddarlohta L\,G perunasosetta L G\nKukkakaalikormaa M\,G basmatiriisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260115
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260115T120000
+DTEND;TZID=Europe/Helsinki:20260115T130000
+SUMMARY:Taco-broilerilasagnettea L | Kasvispastavuokaa L
+DESCRIPTION:Taco-broilerilasagnettea L\nKasvispastavuokaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260116
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260116T120000
+DTEND;TZID=Europe/Helsinki:20260116T130000
+SUMMARY:Makkarakeittoa M\,G hedelmä | Kasvissosekeittoa L\,G hedelmä
+DESCRIPTION:Makkarakeittoa M\,G hedelmä\nKasvissosekeittoa L\,G hedelmä\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260119
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260119T120000
+DTEND;TZID=Europe/Helsinki:20260119T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Jauhelihapihvejä L perunasosetta L\,G\n6\,30 € /opiskelija | perustutkinto- Tomaatti-tofu-munakoisovuokaa L perunasosetta L\,G\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260120
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260120T120000
+DTEND;TZID=Europe/Helsinki:20260120T130000
+SUMMARY:Butter chicken L\,G riisiä | Butter tofu L\,G riisiä
+DESCRIPTION:8\,40 €\nButter chicken L\,G riisiä\nButter tofu L\,G riisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260121
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260121T120000
+DTEND;TZID=Europe/Helsinki:20260121T130000
+SUMMARY:Nakkikeitooa M\,G hedelmä | Sienikeittoa L\,G hedelmä
+DESCRIPTION:Nakkikeitooa M\,G hedelmä\nSienikeittoa L\,G hedelmä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260122
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260122T120000
+DTEND;TZID=Europe/Helsinki:20260122T130000
+SUMMARY:Kebab-tomaattikastiketta L\,G riisiä | Kasvistäytteistä munakasrullaa L
+DESCRIPTION:Kebab-tomaattikastiketta L\,G riisiä\nKasvistäytteistä munakasrullaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260123
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260123T120000
+DTEND;TZID=Europe/Helsinki:20260123T130000
+SUMMARY:Paneroitua kalaa L ranch- kastiketta L\,G | perunasosetta L\,G | Kasvispihvejä L\,G perunasosetta L\,G
+DESCRIPTION:Paneroitua kalaa L ranch- kastiketta L\,G\nperunasosetta L\,G\nKasvispihvejä L\,G perunasosetta L\,G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260126
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260126T120000
+DTEND;TZID=Europe/Helsinki:20260126T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Paprikaista broilerikastiketta L \,G riisiä\n6\,30 € /opiskelija | perustutkinto- Slaavilaista kasvispataa L\,G\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260127
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260127T120000
+DTEND;TZID=Europe/Helsinki:20260127T130000
+SUMMARY:Tomaattista jauheliha-perunalaatikkoa L | Kasviskormaa L \, G \, basmatiriisiä
+DESCRIPTION:8\,40 €\nTomaattista jauheliha-perunalaatikkoa L\nKasviskormaa L \, G \, basmatiriisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260128
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260128T120000
+DTEND;TZID=Europe/Helsinki:20260128T130000
+SUMMARY:Lohipyöryköitä L\, kermaviilikastiketta L\,G\, | perunaa | BBQ-kasvispaistosta L\,G
+DESCRIPTION:Lohipyöryköitä L\, kermaviilikastiketta L\,G\,\nperunaa\nBBQ-kasvispaistosta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260129
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260129T120000
+DTEND;TZID=Europe/Helsinki:20260129T130000
+SUMMARY:Hernekeittoa M\,G\, ohukaisia L\, hilloa | Soijarouhe-hernekeittoa M\,G\, ohukaisia L\, hilloa
+DESCRIPTION:Hernekeittoa M\,G\, ohukaisia L\, hilloa\nSoijarouhe-hernekeittoa M\,G\, ohukaisia L\, hilloa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260130
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260130T120000
+DTEND;TZID=Europe/Helsinki:20260130T130000
+SUMMARY:Lihapyöryköitä L\,perunasosetta L\,G\, hedelmä | Pinaattiohukaisia L\, perunasosetta L\,G\, hedelmä
+DESCRIPTION:Lihapyöryköitä L\,perunasosetta L\,G\, hedelmä\nPinaattiohukaisia L\, perunasosetta L\,G\, hedelmä\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260209
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260209T120000
+DTEND;TZID=Europe/Helsinki:20260209T130000
+SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Nakkikastiketta\, perunaa\n6\,30 € /opiskelija | perustutkinto- Tikka Masala vege\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260210
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260210T120000
+DTEND;TZID=Europe/Helsinki:20260210T130000
+SUMMARY:Lohikiusasausta | MiFu Nuudeliwokkia\, riisiä
+DESCRIPTION:8\,40 €\nLohikiusasausta\nMiFu Nuudeliwokkia\, riisiä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260211
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260211T120000
+DTEND;TZID=Europe/Helsinki:20260211T130000
+SUMMARY:Broileripyöryköitä L \,M basmatiriisiä\, | currykastiketta | Kesäkurpitsa - pinaattilasagnea
+DESCRIPTION:Broileripyöryköitä L \,M basmatiriisiä\,\ncurrykastiketta\nKesäkurpitsa - pinaattilasagnea
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260212
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260212T120000
+DTEND;TZID=Europe/Helsinki:20260212T130000
+SUMMARY:Jauhelihakeittoa | Mifukeittoa thamaalaisittain
+DESCRIPTION:Jauhelihakeittoa\nMifukeittoa thamaalaisittain
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260213
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260213T120000
+DTEND;TZID=Europe/Helsinki:20260213T130000
+SUMMARY:Broileririsottoa | Kreikkalaista kasvisvuokaa
+DESCRIPTION:Broileririsottoa\nKreikkalaista kasvisvuokaa\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260216
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260216T120000
+DTEND;TZID=Europe/Helsinki:20260216T130000
+SUMMARY:opiskelijoille maksuton | Savon Kasvistäytteisiä paprikoita L\,G | ammattiopiston henkilökunta
+DESCRIPTION:Lounashinta: Jauhelihakastiketta M\, pastaa\, perunaa\,\n6\,30 € /opiskelija | perustutkinto- uunijuureksia Kahvia\,teetä\, pieni makea\nopiskelijoille maksuton | Savon Kasvistäytteisiä paprikoita L\,G\nammattiopiston henkilökunta\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260217
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260217T120000
+DTEND;TZID=Europe/Helsinki:20260217T130000
+SUMMARY:Paneerattua kalaa L\, perunasosetta L\,G\, | kermaviilikastiketta L\,G | Slaavilaista kasvispataa L\,G\, perunasosetta L\,G
+DESCRIPTION:Paneerattua kalaa L\, perunasosetta L\,G\,\nkermaviilikastiketta L\,G\nSlaavilaista kasvispataa L\,G\, perunasosetta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260218
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260218T120000
+DTEND;TZID=Europe/Helsinki:20260218T130000
+SUMMARY:Makkaraperunoita M\,G\, kasvispyöryköitä L\, | jäätelötikku L\,G | Kasvistäytteistä munakasrullaa L
+DESCRIPTION:Makkaraperunoita M\,G\, kasvispyöryköitä L\,\njäätelötikku L\,G\nKasvistäytteistä munakasrullaa L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260219
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260219T120000
+DTEND;TZID=Europe/Helsinki:20260219T130000
+SUMMARY:Pekonibroileria L\,G\, riisiä\, perunaa | Kasvispihvejä L\, riisiä\, perunaa
+DESCRIPTION:Pekonibroileria L\,G\, riisiä\, perunaa\nKasvispihvejä L\, riisiä\, perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260220
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260220T120000
+DTEND;TZID=Europe/Helsinki:20260220T130000
+SUMMARY:Hampurilaisia\, lohkoperunaa | Kasvishampurilaisia\, lohkoperunaa
+DESCRIPTION:Hampurilaisia\, lohkoperunaa\nKasvishampurilaisia\, lohkoperunaa\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260803
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260803T120000
+DTEND;TZID=Europe/Helsinki:20260803T130000
+SUMMARY:opiskelijoille maksuton | Savon | pekonista broileripaistosta L \, G | ammattiopiston henkilökunta | riisiä\, perunaa
+DESCRIPTION:Lounashinta: Provencen kasvispataa L \, G\n6\,30 € /opiskelija | perustutkinto- riisiä\, perunaa\nopiskelijoille maksuton | Savon\npekonista broileripaistosta L \, G\nammattiopiston henkilökunta\nriisiä\, perunaa\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260804
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260804T120000
+DTEND;TZID=Europe/Helsinki:20260804T130000
+SUMMARY:kasvismoussakkaa L \, G | pannupihvejä L \, G | perunaa
+DESCRIPTION:kasvismoussakkaa L \, G\npannupihvejä L \, G\nperunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260805
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260805T120000
+DTEND;TZID=Europe/Helsinki:20260805T130000
+SUMMARY:kasvispataa G | basmatiriisiä | lasagnette L
+DESCRIPTION:kasvispataa G\nbasmatiriisiä\nlasagnette L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260806
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260806T120000
+DTEND;TZID=Europe/Helsinki:20260806T130000
+SUMMARY:kasvispihvejä L | kermaviilikastike L\,G\, perunaa | paneroitua kalaa L | kermaviilikastike L\,G\, perunaa
+DESCRIPTION:kasvispihvejä L\nkermaviilikastike L\,G\, perunaa\npaneroitua kalaa L\nkermaviilikastike L\,G\, perunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260807
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260807T120000
+DTEND;TZID=Europe/Helsinki:20260807T130000
+SUMMARY:sienikeittoa L \, G | broilerikeittoa L \, G \, M | omena-kaurapaistosta L | vaniljakastiketta L\, G
+DESCRIPTION:sienikeittoa L \, G\nbroilerikeittoa L \, G \, M\nomena-kaurapaistosta L\nvaniljakastiketta L\, G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260810
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260810T120000
+DTEND;TZID=Europe/Helsinki:20260810T130000
+SUMMARY:opiskelijoille maksuton | Savon | lihapyöryköitä L \, M | ammattiopiston henkilökunta | kermakastiketta L\,G\, perunaa
+DESCRIPTION:Lounashinta: kasvispyöryköitä L\n6\,30 € /opiskelija | perustutkinto- kermaviilikastike L\,G\, perunaa\nopiskelijoille maksuton | Savon\nlihapyöryköitä L \, M\nammattiopiston henkilökunta\nkermakastiketta L\,G\, perunaa\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260811
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260811T120000
+DTEND;TZID=Europe/Helsinki:20260811T130000
+SUMMARY:rakuunaista porkkanasosekeittoa L \, G | aurinkoista broilerikeittoa L \, G | hedelmä
+DESCRIPTION:rakuunaista porkkanasosekeittoa L \, G\naurinkoista broilerikeittoa L \, G\nhedelmä
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260812
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260812T120000
+DTEND;TZID=Europe/Helsinki:20260812T130000
+SUMMARY:mifu-nuudelivuoka L | tonnikalapastavuoka L
+DESCRIPTION:mifu-nuudelivuoka L\ntonnikalapastavuoka L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260813
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260813T120000
+DTEND;TZID=Europe/Helsinki:20260813T130000
+SUMMARY:marokkolaista kasvispataa L | riisiä | bolognesekastiketta L \, M | perunaa
+DESCRIPTION:marokkolaista kasvispataa L\nriisiä\nbolognesekastiketta L \, M\nperunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260814
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260814T120000
+DTEND;TZID=Europe/Helsinki:20260814T130000
+SUMMARY:täytettyjä paprikoita L \, G | perunasose L\, G | uunimakkaraa G \, M | perunasosetta L\, G
+DESCRIPTION:täytettyjä paprikoita L \, G\nperunasose L\, G\nuunimakkaraa G \, M\nperunasosetta L\, G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260817
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260817T120000
+DTEND;TZID=Europe/Helsinki:20260817T130000
+SUMMARY:opiskelijoille maksuton | Savon | kinkkukastiketta L | ammattiopiston henkilökunta | perunaa\, pastaa
+DESCRIPTION:Lounashinta: välimeren kasvispataa L\n6\,30 € /opiskelija | perustutkinto- perunaa\, pastaa\nopiskelijoille maksuton | Savon\nkinkkukastiketta L\nammattiopiston henkilökunta\nperunaa\, pastaa\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260818
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260818T120000
+DTEND;TZID=Europe/Helsinki:20260818T130000
+SUMMARY:koskenlaskijan sienikeittoa L \, G | jauhelihakeittoa G \, M
+DESCRIPTION:koskenlaskijan sienikeittoa L \, G\njauhelihakeittoa G \, M
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260819
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260819T120000
+DTEND;TZID=Europe/Helsinki:20260819T130000
+SUMMARY:kasvismureketta L \, G | ranch-kastiketta L\,G\, perunasosetta L\,G | rapea kala L | ranch-kastiketta L\,G\, perunasosetta L\,G
+DESCRIPTION:kasvismureketta L \, G\nranch-kastiketta L\,G\, perunasosetta L\,G\nrapea kala L\nranch-kastiketta L\,G\, perunasosetta L\,G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260820
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260820T120000
+DTEND;TZID=Europe/Helsinki:20260820T130000
+SUMMARY:kasvispastavuoka L | tacp-broilerilasagnette L
+DESCRIPTION:kasvispastavuoka L\ntacp-broilerilasagnette L
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260821
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260821T120000
+DTEND;TZID=Europe/Helsinki:20260821T130000
+SUMMARY:ohrasuurimopuuro L | mehukeittoa | nakkikeittoa G \, M | kahvi\, tee\, pieni makea
+DESCRIPTION:ohrasuurimopuuro L\nmehukeittoa\nnakkikeittoa G \, M\nkahvi\, tee\, pieni makea\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260824
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260824T120000
+DTEND;TZID=Europe/Helsinki:20260824T130000
+SUMMARY:opiskelijoille maksuton | Savon | jauhelihapihvejä L | ammattiopiston henkilökunta | perunasosetta L\,G
+DESCRIPTION:Lounashinta: kasvispyörykät L\n6\,30 € /opiskelija | perustutkinto- perunasosetta L\,G\nopiskelijoille maksuton | Savon\njauhelihapihvejä L\nammattiopiston henkilökunta\nperunasosetta L\,G\n8\,40 €
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260825
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260825T120000
+DTEND;TZID=Europe/Helsinki:20260825T130000
+SUMMARY:värikästä vihannespataa L \, G | riisiä | broileririsottoa L \, G
+DESCRIPTION:värikästä vihannespataa L \, G\nriisiä\nbroileririsottoa L \, G
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260826
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260826T120000
+DTEND;TZID=Europe/Helsinki:20260826T130000
+SUMMARY:juustoinen kasvissosekeittoa L \, G | nakkikeittoa G \, M | marjakiisseliä G \, M
+DESCRIPTION:juustoinen kasvissosekeittoa L \, G\nnakkikeittoa G \, M\nmarjakiisseliä G \, M
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260827
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260827T120000
+DTEND;TZID=Europe/Helsinki:20260827T130000
+SUMMARY:kasvistäytteistä munakasrullaa L | appelsiini-chilikalaa L \, G | perunaa
+DESCRIPTION:kasvistäytteistä munakasrullaa L\nappelsiini-chilikalaa L \, G\nperunaa
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260828
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260828T120000
+DTEND;TZID=Europe/Helsinki:20260828T130000
+SUMMARY:chow mein kasviskastiketta L \, G | riisiä\, perunaa | kebabia tomaattikastikkeessa L \, G | riisiä\, perunaa
+DESCRIPTION:chow mein kasviskastiketta L \, G\nriisiä\, perunaa\nkebabia tomaattikastikkeessa L \, G\nriisiä\, perunaa\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:silmu-20260831
+DTSTAMP:20260219T062424Z
+DTSTART;TZID=Europe/Helsinki:20260831T120000
+DTEND;TZID=Europe/Helsinki:20260831T130000
+SUMMARY:opiskelijoille maksuton | Savon | provencen lihapataa L | ammattiopiston henkilökunta | perunaa
+DESCRIPTION:Lounashinta: slaavilaista kasvispataa L\n6\,30 € /opiskelija | perustutkinto- perunaa\nopiskelijoille maksuton | Savon\nprovencen lihapataa L\nammattiopiston henkilökunta\nperunaa\n8\,40 €
+END:VEVENT
 END:VCALENDAR
