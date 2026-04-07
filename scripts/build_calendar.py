@@ -189,29 +189,6 @@ def escape_ics(value: str) -> str:
     )
 
 
-
-VTIMEZONE_EUROPE_HELSINKI = [
-    "BEGIN:VTIMEZONE",
-    "TZID:Europe/Helsinki",
-    "X-LIC-LOCATION:Europe/Helsinki",
-    "BEGIN:DAYLIGHT",
-    "TZOFFSETFROM:+0200",
-    "TZOFFSETTO:+0300",
-    "TZNAME:EEST",
-    "DTSTART:19700329T030000",
-    "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU",
-    "END:DAYLIGHT",
-    "BEGIN:STANDARD",
-    "TZOFFSETFROM:+0300",
-    "TZOFFSETTO:+0200",
-    "TZNAME:EET",
-    "DTSTART:19701025T040000",
-    "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU",
-    "END:STANDARD",
-    "END:VTIMEZONE",
-]
-
-
 def build_ics(events: list[CalendarEvent], restaurant_id: str, restaurant_name: str) -> str:
     """Rakenna iCalendar-tiedoston sisältö CRLF-rivinvaihdoilla."""
     now_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -225,8 +202,6 @@ def build_ics(events: list[CalendarEvent], restaurant_id: str, restaurant_name: 
         f"X-WR-CALNAME:{restaurant_name}",
         "X-WR-TIMEZONE:Europe/Helsinki",
     ]
-
-    lines.extend(VTIMEZONE_EUROPE_HELSINKI)
 
     for event in sorted(events, key=lambda ev: ev.date):
         day_str = event.date.strftime("%Y%m%d")
