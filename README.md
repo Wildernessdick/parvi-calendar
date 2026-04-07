@@ -4,7 +4,7 @@ Tämä repo on toteutettu kokonaan tekoälyllä yhdellä promptilla. Toteutus ha
 
 ## Miten tämä toimii
 
-1. Skripti `scripts/build_calendar.py` käy jokaisen ravintolan viikot `01..52` läpi ravintolakohtaisista URL-osoitteista.
+1. Skripti `scripts/generate_restaurant_calendars.py` käy jokaisen ravintolan viikot `01..52` läpi ravintolakohtaisista URL-osoitteista.
 2. Jokainen PDF puretaan tekstiksi `pdfplumber`-kirjastolla.
 3. Päiväotsikot tunnistetaan regexillä:
    - `Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai + dd.mm.`
@@ -27,13 +27,13 @@ Outlook → Add calendar → Subscribe from web → paste chosen URL.
 
 ## Ajastus GitHub Actionsilla
 
-Workflow löytyy tiedostosta `.github/workflows/build.yml` ja se ajetaan:
+Workflow löytyy tiedostosta `.github/workflows/generate-calendars.yml` ja se ajetaan:
 - joka maanantai klo **05:00 UTC**
 - manuaalisesti `workflow_dispatch`-triggerillä
 
 Workflow:
 - asentaa riippuvuudet `requests` ja `pdfplumber`
-- ajaa skriptin `python scripts/build_calendar.py`
+- ajaa skriptin `python scripts/generate_restaurant_calendars.py`
 - committaa ja pushaa kaikki `*.ics`-tiedostot vain jos sisältö muuttui
 
 ## Ota GitHub Pages käyttöön
