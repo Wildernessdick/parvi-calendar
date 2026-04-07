@@ -5,10 +5,6 @@ on:
     - cron: '0 5 * * 1'
   workflow_dispatch:
 
-concurrency:
-  group: build-calendars-${{ github.ref }}
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
@@ -19,8 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -46,7 +40,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.ics
           git commit -m "chore: update restaurant calendars"
-
-          # Vältä non-fast-forward virhe, jos remote ehti muuttua ajon aikana.
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          git push
