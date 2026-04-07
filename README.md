@@ -1,6 +1,6 @@
 # parvi-calendar
 
-Tämä repo on toteutettu kokonaan tekoälyllä. Toteutus hakee Sakky-ravintoloiden viikkokohtaiset PDF-ruokalistat, purkaa niistä arkipäivien lounassisällöt ja julkaisee Outlookiin (ja muihin kalenteriohjelmiin) tilattavat `.ics`-kalenterit.
+Tämä repo on toteutettu kokonaan tekoälyllä yhdellä promptilla. Toteutus hakee Sakky-ravintoloiden viikkokohtaiset PDF-ruokalistat, purkaa niistä arkipäivien lounassisällöt ja julkaisee Outlookiin (ja muihin kalenteriohjelmiin) tilattavat `.ics`-kalenterit.
 
 ## Miten tämä toimii
 
