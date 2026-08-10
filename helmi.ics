@@ -6,176 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Ravintola Helmi
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
-UID:helmi-20260518
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260518T120000
-DTEND;TZID=Europe/Helsinki:20260518T130000
-SUMMARY:ammattiopiston opiskelijat 6\,30 Bacon and ham sauce (pork)\, pasta\, potatoes | Kasvispataa\, pastaa\, perunaa L \, G | Vegetable pot\, pasta\, potatoes | ammattikorkeakoulun opiskelijat
-DESCRIPTION:Lounashinta: Pekoni-kinkkukastiketta\, pastaa\, perunaa L \, G\nammattiopiston opiskelijat 6\,30 Bacon and ham sauce (pork)\, pasta\, potatoes\n€/hlö | ammattikorkeakoulun\nKasvispataa\, pastaa\, perunaa L \, G\nopiskelijat 2\,95 €/hlö | avoimen\nVegetable pot\, pasta\, potatoes\nammattikorkeakoulun opiskelijat\n7\,65 €/hlö | Savon
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260519
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260519T120000
-DTEND;TZID=Europe/Helsinki:20260519T130000
-SUMMARY:ammattiopiston henkilökunta | Butter chicken\, riisiä\, perunaa L \, G | Butter chicken\, rice\, potatoes | Kesäkurpitsa-pinaattilasagnea L | Zucchini and spinach lasagne | Ammattiko…
-DESCRIPTION:ammattiopiston henkilökunta\nButter chicken\, riisiä\, perunaa L \, G\n8\,40 €/hlö\nButter chicken\, rice\, potatoes\nKesäkurpitsa-pinaattilasagnea L\nZucchini and spinach lasagne\nAmmattikorkeakoulun opiskelijoille lounas\nvaihtoehtona: paistettua kalaa\nFor university of applied sciences students lunch option:\nbaked fish
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260520
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260520T120000
-DTEND;TZID=Europe/Helsinki:20260520T130000
-SUMMARY:Lounas buffet | Juustoista jauheliha-makaronivuokaa L | Minced meat (beef\,pork) and macaroni casserole with cheese | Kasvis-nuudeliwokkia L \, M | Vegetable and noodles wok
-DESCRIPTION:Lounas buffet\nJuustoista jauheliha-makaronivuokaa L\nMinced meat (beef\,pork) and macaroni casserole with cheese\nKasvis-nuudeliwokkia L \, M\nVegetable and noodles wok
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260521
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260521T120000
-DTEND;TZID=Europe/Helsinki:20260521T130000
-SUMMARY:Hernekeittoa L \, G \, M | Pea soup with minced meat (beef\,pork) and bacon | Soija-hernekeittoa L \, G \, M | Soy and pea soup | Ohukaisia\, mansikkahilloa\, kahvi\, tee L | Pancakes\, …
-DESCRIPTION:Hernekeittoa L \, G \, M\nPea soup with minced meat (beef\,pork) and bacon\nSoija-hernekeittoa L \, G \, M\nSoy and pea soup\nOhukaisia\, mansikkahilloa\, kahvi\, tee L\nPancakes\, strawberry jam\, coffee\, tea
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260522
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260522T120000
-DTEND;TZID=Europe/Helsinki:20260522T130000
-SUMMARY:RAVINTOLA SULJETTU | RESTAURANT CLOSED
-DESCRIPTION:RAVINTOLA SULJETTU\nRESTAURANT CLOSED\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260525
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260525T120000
-DTEND;TZID=Europe/Helsinki:20260525T130000
-SUMMARY:ammattiopiston opiskelijat 6\,30 Sausage sauce (pork\, chicken)\, potatoes | Lounasta talon tapaan | Lunch a'la house | ammattikorkeakoulun opiskelijat | Juusto-kasviskastiketta\, p…
-DESCRIPTION:Lounashinta: Makkarakastiketta\, perunaa L \, M\nammattiopiston opiskelijat 6\,30 Sausage sauce (pork\, chicken)\, potatoes\n€/hlö | ammattikorkeakoulun\nLounasta talon tapaan\nopiskelijat 2\,95 €/hlö | avoimen\nLunch a'la house\nammattikorkeakoulun opiskelijat\nJuusto-kasviskastiketta\, perunaa L \, G\n7\,65 €/hlö | Savon\nVegetable sauce with cheese\, potatoes\nammattiopiston henkilökunta\n8\,40 €/hlö Marjakiisseliä L \, G \, M\nBerries soup
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260526
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260526T120000
-DTEND;TZID=Europe/Helsinki:20260526T130000
-SUMMARY:Broilerilasagnettea L | Chicken lasagnette | Lounasta talon tapaan | Lunch a'la house | BBQ-kasvispaistosta L \, G | BBQ vegetable casserole
-DESCRIPTION:Broilerilasagnettea L\nChicken lasagnette\nLounasta talon tapaan\nLunch a'la house\nBBQ-kasvispaistosta L \, G\nBBQ vegetable casserole
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260527
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260527T120000
-DTEND;TZID=Europe/Helsinki:20260527T130000
-SUMMARY:Jauhelihakeittoa\, sämpylä\, riisipiirakka L \, G \, M | Minced meat (pork\,beef) soup with vegetable\, bun\, rice pasty | Lounasta talon tapaan | Lunch a'la house | Koskenlaskijan sie…
-DESCRIPTION:Jauhelihakeittoa\, sämpylä\, riisipiirakka L \, G \, M\nMinced meat (pork\,beef) soup with vegetable\, bun\, rice pasty\nLounasta talon tapaan\nLunch a'la house\nKoskenlaskijan sienikeittoa\, porkkana-\ngrahampiirakka L \, G\nMushroom soup with cheese\, carrot pie\nJälkiruokaa talon tapaan\nDessert a'la house
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260528
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260528T120000
-DTEND;TZID=Europe/Helsinki:20260528T130000
-SUMMARY:Paneroitua kalaa\, perunaa\, kermaviilikastiketta L | Baked fish\, potatoes\, sour cream sauce | Lounasta talon tapaan | Lunch a'la house | Värikkäät kasvispyörykät\, perunaa\, | kerm…
-DESCRIPTION:Paneroitua kalaa\, perunaa\, kermaviilikastiketta L\nBaked fish\, potatoes\, sour cream sauce\nLounasta talon tapaan\nLunch a'la house\nVärikkäät kasvispyörykät\, perunaa\,\nkermaviilikastiketta L \, G\nVegetable ball\, potatoes\, sour cream sauce
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260529
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260529T120000
-DTEND;TZID=Europe/Helsinki:20260529T130000
-SUMMARY:Lounas buffet | Lunch buffet | Kasvisruokaa talon tapaan | Vegetable lunch a'la house
-DESCRIPTION:Lounas buffet\nLunch buffet\nKasvisruokaa talon tapaan\nVegetable lunch a'la house\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260601
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260601T120000
-DTEND;TZID=Europe/Helsinki:20260601T130000
-SUMMARY:ammattiopiston opiskelijat 6\,30 RESTAURANT CLOSED 19.6-31.7.2026 | ammattikorkeakoulun opiskelijat | ammattiopiston henkilökunta
-DESCRIPTION:Lounashinta: RAVINTOLA SULJETTU\nammattiopiston opiskelijat 6\,30 RESTAURANT CLOSED 19.6-31.7.2026\n€/hlö | ammattikorkeakoulun\nopiskelijat 2\,95 €/hlö | avoimen\nammattikorkeakoulun opiskelijat\n7\,65 €/hlö | Savon\nammattiopiston henkilökunta\n8\,40 €/hlö\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260720
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260720T120000
-DTEND;TZID=Europe/Helsinki:20260720T130000
-SUMMARY:ammattiopiston opiskelijat 6\,30
-DESCRIPTION:Lounashinta:\nammattiopiston opiskelijat 6\,30\n€/hlö | ammattikorkeakoulun\nopiskelijat 2\,95 €/hlö | avoimen
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260721
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260721T120000
-DTEND;TZID=Europe/Helsinki:20260721T130000
-SUMMARY:ammattikorkeakoulun opiskelijat | ammattiopiston henkilökunta
-DESCRIPTION:ammattikorkeakoulun opiskelijat\n7\,65 €/hlö | Savon\nammattiopiston henkilökunta\n8\,40 €/hlö
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260722
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260722T120000
-DTEND;TZID=Europe/Helsinki:20260722T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260723
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260723T120000
-DTEND;TZID=Europe/Helsinki:20260723T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260724
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260724T120000
-DTEND;TZID=Europe/Helsinki:20260724T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:Powered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260727
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260727T120000
-DTEND;TZID=Europe/Helsinki:20260727T130000
-SUMMARY:ammattiopiston opiskelijat 6\,30 | ammattikorkeakoulun opiskelijat
-DESCRIPTION:Lounashinta:\nammattiopiston opiskelijat 6\,30\n€/hlö | ammattikorkeakoulun\nopiskelijat 2\,95 €/hlö | avoimen\nammattikorkeakoulun opiskelijat
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260728
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260728T120000
-DTEND;TZID=Europe/Helsinki:20260728T130000
-SUMMARY:ammattiopiston henkilökunta
-DESCRIPTION:7\,65 €/hlö | Savon\nammattiopiston henkilökunta\n8\,40 €/hlö
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260729
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260729T120000
-DTEND;TZID=Europe/Helsinki:20260729T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260730
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260730T120000
-DTEND;TZID=Europe/Helsinki:20260730T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-20260731
-DTSTAMP:20260803T082311Z
-DTSTART;TZID=Europe/Helsinki:20260731T120000
-DTEND;TZID=Europe/Helsinki:20260731T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:Powered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
 UID:helmi-20260803
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260803T120000
 DTEND;TZID=Europe/Helsinki:20260803T130000
 SUMMARY:ammattiopiston opiskelijat 6\,30
@@ -183,7 +15,7 @@ DESCRIPTION:Lounashinta:\nammattiopiston opiskelijat 6\,30\n€/hlö | ammattiko
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260804
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260804T120000
 DTEND;TZID=Europe/Helsinki:20260804T130000
 SUMMARY:ammattikorkeakoulun opiskelijat
@@ -191,7 +23,7 @@ DESCRIPTION:opiskelijat 2\,95 €/hlö | avoimen\nammattikorkeakoulun opiskelija
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260805
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260805T120000
 DTEND;TZID=Europe/Helsinki:20260805T130000
 SUMMARY:ammattiopiston henkilökunta
@@ -199,7 +31,7 @@ DESCRIPTION:ammattiopiston henkilökunta\n8\,40 €/hlö
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260806
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260806T120000
 DTEND;TZID=Europe/Helsinki:20260806T130000
 SUMMARY:Lohipyöryköitä\, perunasosetta\, ranch-kastiketta | L \, G | Salmon ball\, mashed potatoes\, ranch sauce | Punajuuri-nyhtökauravuokaa L \, G | Beetroot and oats casserole
@@ -207,7 +39,7 @@ DESCRIPTION:Lohipyöryköitä\, perunasosetta\, ranch-kastiketta\nL \, G\nSalmon
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260807
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260807T120000
 DTEND;TZID=Europe/Helsinki:20260807T130000
 SUMMARY:Hedelmäistä broilerikastiketta\, riisiä\, perunaa L \, | G \, M | Chicken and fruit sauce\, rice potatoes | Aurajuusto-kasvispataa\, riisiä\, perunaa L \, G | Vegetable pot with blue ch…
@@ -215,7 +47,7 @@ DESCRIPTION:Hedelmäistä broilerikastiketta\, riisiä\, perunaa L \,\nG \, M\nC
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260810
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260810T120000
 DTEND;TZID=Europe/Helsinki:20260810T130000
 SUMMARY:ammattiopiston opiskelijat 6\,30 perunaa L \, G \, M | Tarhurin juurespataa\, basmati riisiä\, perunaa L \, | ammattikorkeakoulun opiskelijat | G | Root vegetable pot\, basmati rice\, p…
@@ -223,7 +55,7 @@ DESCRIPTION:Lounashinta: Broileria hapanimeläkastikkeessa\, basmati riisiä\,\n
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260811
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260811T120000
 DTEND;TZID=Europe/Helsinki:20260811T130000
 SUMMARY:Lihapyöryköitä\, perunaa\, kermakastiketta L | Meat ball\, potatoes\, cream sauce | Värikkäät kasvispyörykät\, perunaa\, | jogurttikastiketta L \, G | Vegetable ball\, potatoes yoghurt …
@@ -231,7 +63,7 @@ DESCRIPTION:Lihapyöryköitä\, perunaa\, kermakastiketta L\nMeat ball\, potatoe
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260812
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260812T120000
 DTEND;TZID=Europe/Helsinki:20260812T130000
 SUMMARY:Taco-broilerilasagnettea L | Chicken lasagnette | Kasvislasagnettea L | Vegetable lasagnette
@@ -239,7 +71,7 @@ DESCRIPTION:Taco-broilerilasagnettea L\nChicken lasagnette\nKasvislasagnettea L\
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260813
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260813T120000
 DTEND;TZID=Europe/Helsinki:20260813T130000
 SUMMARY:Hernekeittoa L \, G \, M | Pea soup with minced meat and bacon (beef\,pork) | Kasvis-hernekeittoa L \, G \, M | Pea soup | Ohukaisia\, mansikkahilloa L | Pancakes\, strawberry jam
@@ -247,10 +79,210 @@ DESCRIPTION:Hernekeittoa L \, G \, M\nPea soup with minced meat and bacon (beef\
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-20260814
-DTSTAMP:20260803T082311Z
+DTSTAMP:20260810T060930Z
 DTSTART;TZID=Europe/Helsinki:20260814T120000
 DTEND;TZID=Europe/Helsinki:20260814T130000
-SUMMARY:Paneroitua kala\, perunasosetta\, | kermaviilikastiketta L | Breaded fish\, mashed potatoes\, sour cream sauce | Batattipihvit\, perunasosetta\, kermaviilikastiketta | L \, G | Sweet p…
-DESCRIPTION:Paneroitua kala\, perunasosetta\,\nkermaviilikastiketta L\nBreaded fish\, mashed potatoes\, sour cream sauce\nBatattipihvit\, perunasosetta\, kermaviilikastiketta\nL \, G\nSweet potatoes steak\, mashed potatoes\, sour cream sauce\nPowered by TCPDF (www.tcpdf.org)
+SUMMARY:Paneroitua kalaa\, perunasosetta\, | kermaviilikastiketta L | Breaded fish\, mashed potatoes\, sour cream sauce | Batattipihvit\, perunasosetta\, kermaviilikastiketta | L \, G | Sweet …
+DESCRIPTION:Paneroitua kalaa\, perunasosetta\,\nkermaviilikastiketta L\nBreaded fish\, mashed potatoes\, sour cream sauce\nBatattipihvit\, perunasosetta\, kermaviilikastiketta\nL \, G\nSweet potatoes steak\, mashed potatoes\, sour cream sauce\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260817
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260817T120000
+DTEND;TZID=Europe/Helsinki:20260817T130000
+SUMMARY:ammattiopiston opiskelijat 6\,30 L | Kasvis-juustopihvit\, perunaa\, kermaviilikastiketta | ammattikorkeakoulun opiskelijat | L | Vegetable steak with cheese\, potatoes\, sour cream …
+DESCRIPTION:Lounashinta: Broileripyörykät\, riisiä\, perunaa\, currykastiketta\nammattiopiston opiskelijat 6\,30 L\n€/hlö | ammattikorkeakoulun Chicken ball\, rice\, potatoes\, curry sauce\nopiskelijat 2\,95 €/hlö | avoimen\nKasvis-juustopihvit\, perunaa\, kermaviilikastiketta\nammattikorkeakoulun opiskelijat\nL\n7\,65 €/hlö | Savon\nVegetable steak with cheese\, potatoes\, sour cream sauce\nammattiopiston henkilökunta\n8\,40 €/hlö
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260818
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260818T120000
+DTEND;TZID=Europe/Helsinki:20260818T130000
+SUMMARY:Bolognesekastiketta\, pastaa\, perunaa L \, G | Bolognese sauce (beef\,pork)\, pasta\, potatoes | Linssi-bataattipataa\, pastaa\, perunaa L \, G | Lentil and sweet potato pot\, pasta\, pot…
+DESCRIPTION:Bolognesekastiketta\, pastaa\, perunaa L \, G\nBolognese sauce (beef\,pork)\, pasta\, potatoes\nLinssi-bataattipataa\, pastaa\, perunaa L \, G\nLentil and sweet potato pot\, pasta\, potatoes
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260819
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260819T120000
+DTEND;TZID=Europe/Helsinki:20260819T130000
+SUMMARY:Kermaista broilerikeittoa\, sämpylä\, jäätelö L \, G | Chicken soup with cream\, bun\, ice cream | Kermaista herne-currykeittoa\, sämpylä\, jäätelö L | \, G | Vegetable soup with cream\,…
+DESCRIPTION:Kermaista broilerikeittoa\, sämpylä\, jäätelö L \, G\nChicken soup with cream\, bun\, ice cream\nKermaista herne-currykeittoa\, sämpylä\, jäätelö L\n\, G\nVegetable soup with cream\, bun\, ice cream
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260820
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260820T120000
+DTEND;TZID=Europe/Helsinki:20260820T130000
+SUMMARY:Paneroituja lohipihvejä\, perunaa\, | kermaviilikastiketta L | Breaded salmon steak\, potatoes\, sour cream sauce | Kasvistortillat juustokastikkeella L | Vegetable tortilla with ch…
+DESCRIPTION:Paneroituja lohipihvejä\, perunaa\,\nkermaviilikastiketta L\nBreaded salmon steak\, potatoes\, sour cream sauce\nKasvistortillat juustokastikkeella L\nVegetable tortilla with cheese sauce
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260821
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260821T120000
+DTEND;TZID=Europe/Helsinki:20260821T130000
+SUMMARY:Nakkikastiketta\, perunaa L | Frankfurter sauce (pork)\, potatoes | Chow mein kasviskastiketta\, riisiä\, perunaa L \, | G | Chow mein vegetable sauce\, rice\, potatoes
+DESCRIPTION:Nakkikastiketta\, perunaa L\nFrankfurter sauce (pork)\, potatoes\nChow mein kasviskastiketta\, riisiä\, perunaa L \,\nG\nChow mein vegetable sauce\, rice\, potatoes\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260824
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260824T120000
+DTEND;TZID=Europe/Helsinki:20260824T130000
+SUMMARY:ammattiopiston opiskelijat 6\,30 Spinach crepes\, mashed potatoes
+DESCRIPTION:Lounashinta: Pinaattiohukaiset\, perunasosetta L\nammattiopiston opiskelijat 6\,30 Spinach crepes\, mashed potatoes\n€/hlö | ammattikorkeakoulun\nopiskelijat 2\,95 €/hlö | avoimen
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260825
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260825T120000
+DTEND;TZID=Europe/Helsinki:20260825T130000
+SUMMARY:ammattikorkeakoulun opiskelijat | Hedelmäistä broilerikastiketta\, riisiä\, perunaa L \, | G | ammattiopiston henkilökunta | Chicken sauce with fruit\, rice\, potatoes | Chili sin ca…
+DESCRIPTION:ammattikorkeakoulun opiskelijat\nHedelmäistä broilerikastiketta\, riisiä\, perunaa L \,\n7\,65 €/hlö | Savon\nG\nammattiopiston henkilökunta\nChicken sauce with fruit\, rice\, potatoes\n8\,40 €/hlö\nChili sin carne\, riisiä\, perunaa L \, G\nChili sin carne\, rice\, potatoes
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260826
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260826T120000
+DTEND;TZID=Europe/Helsinki:20260826T130000
+SUMMARY:Tomaattinen jauheliha-perunalaatikko L \, G | Minced meat (beef\,pork) and potatoes casserole with tomato | Kasviskormaa\, basmatiriisiä L \, G | Vegetable korma\, basmati rice
+DESCRIPTION:Tomaattinen jauheliha-perunalaatikko L \, G\nMinced meat (beef\,pork) and potatoes casserole with tomato\nKasviskormaa\, basmatiriisiä L \, G\nVegetable korma\, basmati rice
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260827
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260827T120000
+DTEND;TZID=Europe/Helsinki:20260827T130000
+SUMMARY:Hernekeittoa L \, G | Pea soup with bacon (pork) | Kasvis-hernekeittoa L \, G \, M | Pea soup | Ohukaisia\, hilloa L | Pancakes\, strawberry jam
+DESCRIPTION:Hernekeittoa L \, G\nPea soup with bacon (pork)\nKasvis-hernekeittoa L \, G \, M\nPea soup\nOhukaisia\, hilloa L\nPancakes\, strawberry jam
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260828
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260828T120000
+DTEND;TZID=Europe/Helsinki:20260828T130000
+SUMMARY:Tonnikalapastavuokaa L | Tuna fish and pasta casserole | Paholaisen kasvisvuokaa L \, G | Vegetable casserole with sweet pepper sauce
+DESCRIPTION:Tonnikalapastavuokaa L\nTuna fish and pasta casserole\nPaholaisen kasvisvuokaa L \, G\nVegetable casserole with sweet pepper sauce\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260831
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260831T120000
+DTEND;TZID=Europe/Helsinki:20260831T130000
+SUMMARY:ammattiopiston opiskelijat 6\,30 Sausage sauce (pork)\, potatoes | Kesäkurpitsakastiketta\, perunaa L \, G | Zucchini sauce\, potatoes | ammattikorkeakoulun opiskelijat
+DESCRIPTION:Lounashinta: Makkarakastiketta\, perunaa L \, M\nammattiopiston opiskelijat 6\,30 Sausage sauce (pork)\, potatoes\n€/hlö | ammattikorkeakoulun\nKesäkurpitsakastiketta\, perunaa L \, G\nopiskelijat 2\,95 €/hlö | avoimen\nZucchini sauce\, potatoes\nammattikorkeakoulun opiskelijat\n7\,65 €/hlö | Savon
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260901
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260901T120000
+DTEND;TZID=Europe/Helsinki:20260901T130000
+SUMMARY:ammattiopiston henkilökunta | Jauheliha-makaronivuokaa L | Minced meat (beef\,pork) and macaroni casserole | Punajuuri-kvinoalasagnea L | Beetroot and quinoa lasagne
+DESCRIPTION:ammattiopiston henkilökunta\nJauheliha-makaronivuokaa L\n8\,40 €/hlö\nMinced meat (beef\,pork) and macaroni casserole\nPunajuuri-kvinoalasagnea L\nBeetroot and quinoa lasagne
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260902
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260902T120000
+DTEND;TZID=Europe/Helsinki:20260902T130000
+SUMMARY:Tomaattinen broilerinjauhelihakeitto\, hedelmä L | \, G \, M | Chicken soup with tomato\, fruit | Arabialainen kasviskeitto\, hedelmä L \, G \, M | Vegetable soup\, fruit
+DESCRIPTION:Tomaattinen broilerinjauhelihakeitto\, hedelmä L\n\, G \, M\nChicken soup with tomato\, fruit\nArabialainen kasviskeitto\, hedelmä L \, G \, M\nVegetable soup\, fruit
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260903
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260903T120000
+DTEND;TZID=Europe/Helsinki:20260903T130000
+SUMMARY:Lohikiusaus L \, G | Salmon and potatoes casserole | Kasvis-nuudelivuokaa L | Vegetable and noodles casserole
+DESCRIPTION:Lohikiusaus L \, G\nSalmon and potatoes casserole\nKasvis-nuudelivuokaa L\nVegetable and noodles casserole
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260904
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260904T120000
+DTEND;TZID=Europe/Helsinki:20260904T130000
+SUMMARY:Butter chicken\, riisiä L \, G | Butter chicken\, rice | Butter tofu\, riisiä L \, G | Butter tofu\, rice
+DESCRIPTION:Butter chicken\, riisiä L \, G\nButter chicken\, rice\nButter tofu\, riisiä L \, G\nButter tofu\, rice\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260907
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260907T120000
+DTEND;TZID=Europe/Helsinki:20260907T130000
+SUMMARY:ammattiopiston opiskelijat 6\,30 kermaviilikastiketta L | Kasvispyörykät\, perunaa\, kermaviilikastiketta L | ammattikorkeakoulun opiskelijat | Vegetable ball\, potatoes\, sour cream…
+DESCRIPTION:Lounashinta: Paneroidut lohipihvit\, perunaa\,\nammattiopiston opiskelijat 6\,30 kermaviilikastiketta L\n€/hlö | ammattikorkeakoulun Breaded salmon steak\, potatoes\, sour cream sauce\nopiskelijat 2\,95 €/hlö | avoimen\nKasvispyörykät\, perunaa\, kermaviilikastiketta L\nammattikorkeakoulun opiskelijat\nVegetable ball\, potatoes\, sour cream sauce\n7\,65 €/hlö | Savon\nammattiopiston henkilökunta
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260908
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260908T120000
+DTEND;TZID=Europe/Helsinki:20260908T130000
+SUMMARY:Kinkkukiusausta L \, G | Ham (pork) and potatoes casserole with cream | Pinaatti-kesäkurpitsalasagnea L | Spinach and zucchini lasagne
+DESCRIPTION:8\,40 €/hlö\nKinkkukiusausta L \, G\nHam (pork) and potatoes casserole with cream\nPinaatti-kesäkurpitsalasagnea L\nSpinach and zucchini lasagne
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260909
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260909T120000
+DTEND;TZID=Europe/Helsinki:20260909T130000
+SUMMARY:Uunimakkaraa\, perunasosetta L \, G | Baked sausage (pork)\, mashed potatoes | Bataattipihvit\, perunasosetta L \, G | Sweet potatoes steak\, mashed potatoes
+DESCRIPTION:Uunimakkaraa\, perunasosetta L \, G\nBaked sausage (pork)\, mashed potatoes\nBataattipihvit\, perunasosetta L \, G\nSweet potatoes steak\, mashed potatoes
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260910
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260910T120000
+DTEND;TZID=Europe/Helsinki:20260910T130000
+SUMMARY:Kermainen broileririsotto L \, G | Chicken risotto with cream | BBQ-kasvispaistosta L \, G | BBQ vegetable casserole
+DESCRIPTION:Kermainen broileririsotto L \, G\nChicken risotto with cream\nBBQ-kasvispaistosta L \, G\nBBQ vegetable casserole
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260911
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260911T120000
+DTEND;TZID=Europe/Helsinki:20260911T130000
+SUMMARY:Jauhelihakeittoa L \, G \, M | Minced meat (beef) and vegetable soup | Koskenlaskijan sienikeittoa L \, G | Mushroom soup with cream | Kahvi\, tee\, keksi | Coffee\, tea\, biscuit
+DESCRIPTION:Jauhelihakeittoa L \, G \, M\nMinced meat (beef) and vegetable soup\nKoskenlaskijan sienikeittoa L \, G\nMushroom soup with cream\nKahvi\, tee\, keksi\nCoffee\, tea\, biscuit\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260914
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260914T120000
+DTEND;TZID=Europe/Helsinki:20260914T130000
+SUMMARY:ammattiopiston opiskelijat 6\,30
+DESCRIPTION:Lounashinta:\nammattiopiston opiskelijat 6\,30\n€/hlö | ammattikorkeakoulun\nopiskelijat 2\,95 €/hlö | avoimen
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260915
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260915T120000
+DTEND;TZID=Europe/Helsinki:20260915T130000
+SUMMARY:ammattikorkeakoulun opiskelijat | ammattiopiston henkilökunta
+DESCRIPTION:ammattikorkeakoulun opiskelijat\n7\,65 €/hlö | Savon\nammattiopiston henkilökunta\n8\,40 €/hlö
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260916
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260916T120000
+DTEND;TZID=Europe/Helsinki:20260916T130000
+SUMMARY:L
+DESCRIPTION:L
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260917
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260917T120000
+DTEND;TZID=Europe/Helsinki:20260917T130000
+SUMMARY:Lounas – Ravintola Parvi
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-20260918
+DTSTAMP:20260810T060930Z
+DTSTART;TZID=Europe/Helsinki:20260918T120000
+DTEND;TZID=Europe/Helsinki:20260918T130000
+SUMMARY:Lounas – Ravintola Parvi
+DESCRIPTION:Powered by TCPDF (www.tcpdf.org)
 END:VEVENT
 END:VCALENDAR
