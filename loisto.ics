@@ -6,123 +6,83 @@ METHOD:PUBLISH
 X-WR-CALNAME:Ravintola Loisto
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
-UID:loisto-20260810
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260810T120000
-DTEND;TZID=Europe/Helsinki:20260810T130000
-SUMMARY:opiskelijoille maksuton | Savon | Tarhurin juurespataa L\, G\, perunaa | ammattiopiston henkilökunta | Root vegetable stew\, potatoes
-DESCRIPTION:Lounashinta: Kanaa sweet M\, L\, G & sour\, basmatiriisiä\n6\,30 € / opiskelija | perustutkinto- Chicken sweet & sour\, basmati rice\nopiskelijoille maksuton | Savon\nTarhurin juurespataa L\, G\, perunaa\nammattiopiston henkilökunta\nRoot vegetable stew\, potatoes\n9\,80 € / hlö (keitto 9\,10 €)
+UID:loisto-20260831
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260831T120000
+DTEND;TZID=Europe/Helsinki:20260831T130000
+SUMMARY:opiskelijoille maksuton | Savon | Kesäkurpitsakastiketta L\, G | ammattiopiston henkilökunta | Zucchini sauce
+DESCRIPTION:Lounashinta: Makkarakastiketta M\, L\, perunaa\n6\,30 € / opiskelija | perustutkinto- Sausage sauce\, potatoes\nopiskelijoille maksuton | Savon\nKesäkurpitsakastiketta L\, G\nammattiopiston henkilökunta\nZucchini sauce\n9\,80 € / hlö (keitto 9\,10 €)
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260811
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260811T120000
-DTEND;TZID=Europe/Helsinki:20260811T130000
-SUMMARY:Lihapyöryköitä\, kermakastiketta L\, G\, perunaa | Meat balls\, cream sauce\, potatoes | Kasvispyöryköitä M\, L\, G | Vegetable balls
-DESCRIPTION:Lihapyöryköitä\, kermakastiketta L\, G\, perunaa\nMeat balls\, cream sauce\, potatoes\nKasvispyöryköitä M\, L\, G\nVegetable balls
+UID:loisto-20260901
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260901T120000
+DTEND;TZID=Europe/Helsinki:20260901T130000
+SUMMARY:Jauheliha-makaronilaatikkoa L | Minced meat pasta casserole | Punajuuri-kvinoalasagnea L\, G | Beetroot quinoa lasagne
+DESCRIPTION:Jauheliha-makaronilaatikkoa L\nMinced meat pasta casserole\nPunajuuri-kvinoalasagnea L\, G\nBeetroot quinoa lasagne
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260812
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260812T120000
-DTEND;TZID=Europe/Helsinki:20260812T130000
-SUMMARY:Taco-broilerilasagnettea L | Taco chicken lasagnette | Kasvislasagnea L | Vegetable lasagne
-DESCRIPTION:Taco-broilerilasagnettea L\nTaco chicken lasagnette\nKasvislasagnea L\nVegetable lasagne
+UID:loisto-20260902
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260902T120000
+DTEND;TZID=Europe/Helsinki:20260902T130000
+SUMMARY:Runsas aamupala klo 7.30 - 10.15 | A hearty breakfast from 7.30 to 10.15
+DESCRIPTION:Runsas aamupala klo 7.30 - 10.15\nA hearty breakfast from 7.30 to 10.15
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260813
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260813T120000
-DTEND;TZID=Europe/Helsinki:20260813T130000
-SUMMARY:Hernekeittoa M\, L\, G\, ohukaisia ja hilloa | Pea soup\, crepes and jam | Kasvis-hernekeittoa L\, G | Vegetable pea soup
-DESCRIPTION:Hernekeittoa M\, L\, G\, ohukaisia ja hilloa\nPea soup\, crepes and jam\nKasvis-hernekeittoa L\, G\nVegetable pea soup
+UID:loisto-20260903
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260903T120000
+DTEND;TZID=Europe/Helsinki:20260903T130000
+SUMMARY:Lohikiusausta L\, G | Salmon casserole | Mifu-nuudelivuokaa L | Vegetable noodle casserole
+DESCRIPTION:Lohikiusausta L\, G\nSalmon casserole\nMifu-nuudelivuokaa L\nVegetable noodle casserole
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260814
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260814T120000
-DTEND;TZID=Europe/Helsinki:20260814T130000
-SUMMARY:Paneroitua kalaleikettä\, kermaviilikastiketta L\, G\, | perunasosetta L\, G | Breadded fish\, sour cream sauce | Bataattipihvejä L\, G | Sweet potato patty
-DESCRIPTION:Paneroitua kalaleikettä\, kermaviilikastiketta L\, G\,\nperunasosetta L\, G\nBreadded fish\, sour cream sauce\nBataattipihvejä L\, G\nSweet potato patty\nPowered by TCPDF (www.tcpdf.org)
+UID:loisto-20260904
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260904T120000
+DTEND;TZID=Europe/Helsinki:20260904T130000
+SUMMARY:Butter chicken L\, G\, basmatiriisiä | Butter chicken\, basmati rice | Butter tofu L\, G\, basmatiriisä | Butter tofu\, basmati rice
+DESCRIPTION:Butter chicken L\, G\, basmatiriisiä\nButter chicken\, basmati rice\nButter tofu L\, G\, basmatiriisä\nButter tofu\, basmati rice\nPowered by TCPDF (www.tcpdf.org)
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260817
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260817T120000
-DTEND;TZID=Europe/Helsinki:20260817T130000
-SUMMARY:opiskelijoille maksuton | Savon | Kasvispihvejä | ammattiopiston henkilökunta | Vegetable patty
-DESCRIPTION:Lounashinta: Broileripyöryköitä\, currykastiketta L\, G\, riisiä\n6\,30 € / opiskelija | perustutkinto- Chicken balls\, curry sauce\, rice\nopiskelijoille maksuton | Savon\nKasvispihvejä\nammattiopiston henkilökunta\nVegetable patty\n9\,80 € / hlö (keitto 9\,10 €)
+UID:loisto-20260907
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260907T120000
+DTEND;TZID=Europe/Helsinki:20260907T130000
+SUMMARY:opiskelijoille maksuton | Savon Breadded fish\, sour cream sauce\, mashed potatoes | ammattiopiston henkilökunta | Kasvispyöryköitä L\, G | Vegetable patty
+DESCRIPTION:Lounashinta: Paneroituja kalapihvejä\, kermaviilikastiketta L\, G\,\n6\,30 € / opiskelija | perustutkinto- perunasosetta L\, G\nopiskelijoille maksuton | Savon Breadded fish\, sour cream sauce\, mashed potatoes\nammattiopiston henkilökunta\nKasvispyöryköitä L\, G\n9\,80 € / hlö (keitto 9\,10 €)\nVegetable patty
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260818
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260818T120000
-DTEND;TZID=Europe/Helsinki:20260818T130000
-SUMMARY:Bolognese kastiketta M\, L\, pastaa | Bolognese sauce\, pasta | Linssi-bataattimuhennosta L\, G | Lentil sweet potato mash
-DESCRIPTION:Bolognese kastiketta M\, L\, pastaa\nBolognese sauce\, pasta\nLinssi-bataattimuhennosta L\, G\nLentil sweet potato mash
+UID:loisto-20260908
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260908T120000
+DTEND;TZID=Europe/Helsinki:20260908T130000
+SUMMARY:Kinkkukiusausta L\, G | Ham casserole | Kesäkurpitsa-pinaattilasagnea L | Zucchini spinach lasagne
+DESCRIPTION:Kinkkukiusausta L\, G\nHam casserole\nKesäkurpitsa-pinaattilasagnea L\nZucchini spinach lasagne
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260819
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260819T120000
-DTEND;TZID=Europe/Helsinki:20260819T130000
-SUMMARY:Broilerikeittoa L\, G | Chicken soup | Kermaista kasvis-currykeittoa L\, G | Creamy curried vegetable soup
-DESCRIPTION:Broilerikeittoa L\, G\nChicken soup\nKermaista kasvis-currykeittoa L\, G\nCreamy curried vegetable soup
+UID:loisto-20260909
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260909T120000
+DTEND;TZID=Europe/Helsinki:20260909T130000
+SUMMARY:Uunimakkaraa M\, L\, G\, perunasosetta L\, G | Baked sausage\, mashed potatoes | Bataattipihvejä M\, L\, G | Sweet potato patty
+DESCRIPTION:Uunimakkaraa M\, L\, G\, perunasosetta L\, G\nBaked sausage\, mashed potatoes\nBataattipihvejä M\, L\, G\nSweet potato patty
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260820
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260820T120000
-DTEND;TZID=Europe/Helsinki:20260820T130000
-SUMMARY:Paneroituja lohipihvejä\, kermaviilikastiketta L\, G\, | perunaa | Breadded fish\, sour cream sauce\, potatoes | Tofu-kasvistortilloja L | Tofu vegetable tortilla
-DESCRIPTION:Paneroituja lohipihvejä\, kermaviilikastiketta L\, G\,\nperunaa\nBreadded fish\, sour cream sauce\, potatoes\nTofu-kasvistortilloja L\nTofu vegetable tortilla
+UID:loisto-20260910
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260910T120000
+DTEND;TZID=Europe/Helsinki:20260910T130000
+SUMMARY:Broileririsottoa L\, G | Chicken risotto | BBQ kasvispaistosta L\, G | BBQ vegetable casserole
+DESCRIPTION:Broileririsottoa L\, G\nChicken risotto\nBBQ kasvispaistosta L\, G\nBBQ vegetable casserole
 END:VEVENT
 BEGIN:VEVENT
-UID:loisto-20260821
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260821T120000
-DTEND;TZID=Europe/Helsinki:20260821T130000
-SUMMARY:Nakkikastiketta M\, L\, perunaa | Sausage sauce\, potatoes | Chow mein kasviskastiketta\, riisiä | Chow mein vegetable sauce\, rice
-DESCRIPTION:Nakkikastiketta M\, L\, perunaa\nSausage sauce\, potatoes\nChow mein kasviskastiketta\, riisiä\nChow mein vegetable sauce\, rice\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
-UID:loisto-20260824
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260824T120000
-DTEND;TZID=Europe/Helsinki:20260824T130000
-SUMMARY:opiskelijoille maksuton | Savon | ammattiopiston henkilökunta
-DESCRIPTION:Lounashinta: Pinaattiohukaisia\, perunasosetta L\, G\n6\,30 € / opiskelija | perustutkinto- Spinach pancakes\, mashed potatoes\nopiskelijoille maksuton | Savon\nammattiopiston henkilökunta
-END:VEVENT
-BEGIN:VEVENT
-UID:loisto-20260825
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260825T120000
-DTEND;TZID=Europe/Helsinki:20260825T130000
-SUMMARY:Hedelmäistä broilerikastiketta L\, G\, riisiä | Fruity chicken sauce\, rice | Chili sin carne
-DESCRIPTION:9\,80 € / hlö (keitto 9\,10 €)\nHedelmäistä broilerikastiketta L\, G\, riisiä\nFruity chicken sauce\, rice\nChili sin carne
-END:VEVENT
-BEGIN:VEVENT
-UID:loisto-20260826
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260826T120000
-DTEND;TZID=Europe/Helsinki:20260826T130000
-SUMMARY:Tomaattista jauheliha-perunalaatikkoa L\, G | Tomato and minced meat potato casserole | Kasviskormaa M\, L\, G\, basmatiriisiä | Vegetable korma\, basmati rice
-DESCRIPTION:Tomaattista jauheliha-perunalaatikkoa L\, G\nTomato and minced meat potato casserole\nKasviskormaa M\, L\, G\, basmatiriisiä\nVegetable korma\, basmati rice
-END:VEVENT
-BEGIN:VEVENT
-UID:loisto-20260827
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260827T120000
-DTEND;TZID=Europe/Helsinki:20260827T130000
-SUMMARY:Hernekeittoa M\, L\, G\, ohukaisia ja hilloa | Pea soup\, crepes and jam | Mifu-hernekeittoa L\, G | Vegetable pea soup
-DESCRIPTION:Hernekeittoa M\, L\, G\, ohukaisia ja hilloa\nPea soup\, crepes and jam\nMifu-hernekeittoa L\, G\nVegetable pea soup
-END:VEVENT
-BEGIN:VEVENT
-UID:loisto-20260828
-DTSTAMP:20260824T053045Z
-DTSTART;TZID=Europe/Helsinki:20260828T120000
-DTEND;TZID=Europe/Helsinki:20260828T130000
-SUMMARY:Tonnikala-pastavuokaa L | Tuna pasta casserole | Paholaisen vegevuokaa L | Vegan casserole
-DESCRIPTION:Tonnikala-pastavuokaa L\nTuna pasta casserole\nPaholaisen vegevuokaa L\nVegan casserole\nPowered by TCPDF (www.tcpdf.org)
+UID:loisto-20260911
+DTSTAMP:20260831T111508Z
+DTSTART;TZID=Europe/Helsinki:20260911T120000
+DTEND;TZID=Europe/Helsinki:20260911T130000
+SUMMARY:Jauhelihakeittoa M\, L\, G | Minced meat soup | Koskenlaskijan sienikeittoa L\, G | Mushroom soup
+DESCRIPTION:Jauhelihakeittoa M\, L\, G\nMinced meat soup\nKoskenlaskijan sienikeittoa L\, G\nMushroom soup\nPowered by TCPDF (www.tcpdf.org)
 END:VEVENT
 END:VCALENDAR
