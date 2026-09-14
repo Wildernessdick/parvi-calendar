@@ -7,7 +7,7 @@ X-WR-CALNAME:Ravintola Loisto
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
 UID:loisto-20260907
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260907T120000
 DTEND;TZID=Europe/Helsinki:20260907T130000
 SUMMARY:opiskelijoille maksuton | Savon Breadded fish\, sour cream sauce\, mashed potatoes | ammattiopiston henkilökunta | Kasvispyöryköitä L\, G | Vegetable patty
@@ -15,7 +15,7 @@ DESCRIPTION:Lounashinta: Paneroituja kalapihvejä\, kermaviilikastiketta L\, G\,
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260908
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260908T120000
 DTEND;TZID=Europe/Helsinki:20260908T130000
 SUMMARY:Kinkkukiusausta L\, G | Ham casserole | Kesäkurpitsa-pinaattilasagnea L | Zucchini spinach lasagne
@@ -23,7 +23,7 @@ DESCRIPTION:Kinkkukiusausta L\, G\nHam casserole\nKesäkurpitsa-pinaattilasagnea
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260909
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260909T120000
 DTEND;TZID=Europe/Helsinki:20260909T130000
 SUMMARY:Uunimakkaraa M\, L\, G\, perunasosetta L\, G | Baked sausage\, mashed potatoes | Bataattipihvejä M\, L\, G | Sweet potato patty
@@ -31,7 +31,7 @@ DESCRIPTION:Uunimakkaraa M\, L\, G\, perunasosetta L\, G\nBaked sausage\, mashed
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260910
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260910T120000
 DTEND;TZID=Europe/Helsinki:20260910T130000
 SUMMARY:Broileririsottoa L\, G | Chicken risotto | BBQ kasvispaistosta L\, G | BBQ vegetable casserole
@@ -39,7 +39,7 @@ DESCRIPTION:Broileririsottoa L\, G\nChicken risotto\nBBQ kasvispaistosta L\, G\n
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260911
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260911T120000
 DTEND;TZID=Europe/Helsinki:20260911T130000
 SUMMARY:Jauhelihakeittoa M\, L\, G | Minced meat soup | Koskenlaskijan sienikeittoa L\, G | Mushroom soup
@@ -47,7 +47,7 @@ DESCRIPTION:Jauhelihakeittoa M\, L\, G\nMinced meat soup\nKoskenlaskijan sienike
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260914
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260914T120000
 DTEND;TZID=Europe/Helsinki:20260914T130000
 SUMMARY:opiskelijoille maksuton | Savon Minced meat patty\, cream sauce\, potatoes | ammattiopiston henkilökunta | Kasvispihvejä | Vegetable patty
@@ -55,7 +55,7 @@ DESCRIPTION:Lounashinta: Jauhelihapihvejä L\, M\, kermakastiketta L\, G\,\n6\,3
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260915
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260915T120000
 DTEND;TZID=Europe/Helsinki:20260915T130000
 SUMMARY:Nuudeli-broilerikeittoa L | Noodle chicken soup | Nuudeli-kasviskeittoa L | Noodle chicken soup
@@ -63,7 +63,7 @@ DESCRIPTION:Nuudeli-broilerikeittoa L\nNoodle chicken soup\nNuudeli-kasviskeitto
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260916
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260916T120000
 DTEND;TZID=Europe/Helsinki:20260916T130000
 SUMMARY:Jauhelihalasagnettea L | Minced meat lasagnette | Palermon kasvispastaa L | Palermo style vegetable pasta
@@ -71,7 +71,7 @@ DESCRIPTION:Jauhelihalasagnettea L\nMinced meat lasagnette\nPalermon kasvispasta
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260917
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260917T120000
 DTEND;TZID=Europe/Helsinki:20260917T130000
 SUMMARY:Lohipyöryköitä\, ranch-kastiketta L\, G\, | perunasosetta L\, G | Salmon balls\, ranch sauce\, mashed potatoes | Punajuuri-nyhtökauravuokaa L | Beetroot pulled oat casserole
@@ -79,7 +79,7 @@ DESCRIPTION:Lohipyöryköitä\, ranch-kastiketta L\, G\,\nperunasosetta L\, G\nS
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260918
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260918T120000
 DTEND;TZID=Europe/Helsinki:20260918T130000
 SUMMARY:Hedelmäistä broilerikastiketta L\, G\, riisiä | Fruity chicken sauce\, rice | Slaavilaista kasvispataa L\, G | Slavic vegetable stew
@@ -87,7 +87,7 @@ DESCRIPTION:Hedelmäistä broilerikastiketta L\, G\, riisiä\nFruity chicken sau
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260921
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260921T120000
 DTEND;TZID=Europe/Helsinki:20260921T130000
 SUMMARY:opiskelijoille maksuton | Savon | Tarhurin juurespataa\, perunaa | ammattiopiston henkilökunta | Root vegetable stew\, potatoes
@@ -95,7 +95,7 @@ DESCRIPTION:Lounashinta: Kanaa sweet & sour M\, L\, G\, basmatiriisiä\n6\,30 �
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260922
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260922T120000
 DTEND;TZID=Europe/Helsinki:20260922T130000
 SUMMARY:Lihapyöryköitä M\, L\, kermakastiketta L\, G\, | perunaa | Meat balls\, cream sauce\, potatoes | Kasvispyöryköitä L\, G | Vegetable balls
@@ -103,7 +103,7 @@ DESCRIPTION:Lihapyöryköitä M\, L\, kermakastiketta L\, G\,\nperunaa\nMeat bal
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260923
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260923T120000
 DTEND;TZID=Europe/Helsinki:20260923T130000
 SUMMARY:Taco-broilerilasagnettea L | Taco chicken lasagnette | Kasvislasagnettea L | Vegetable lasagnette
@@ -111,7 +111,7 @@ DESCRIPTION:Taco-broilerilasagnettea L\nTaco chicken lasagnette\nKasvislasagnett
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260924
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260924T120000
 DTEND;TZID=Europe/Helsinki:20260924T130000
 SUMMARY:Hernekeittoa M\, L\, G\, ohukaisia\, hilloa | Pea soup\, crepes\, jam | Kasvishernekeittoa M\, L\, G | Vegetable pea soup
@@ -119,7 +119,7 @@ DESCRIPTION:Hernekeittoa M\, L\, G\, ohukaisia\, hilloa\nPea soup\, crepes\, jam
 END:VEVENT
 BEGIN:VEVENT
 UID:loisto-20260925
-DTSTAMP:20260907T095049Z
+DTSTAMP:20260914T101248Z
 DTSTART;TZID=Europe/Helsinki:20260925T120000
 DTEND;TZID=Europe/Helsinki:20260925T130000
 SUMMARY:Paneroitua kalaa L\, kermaviilikastiketta L\, G\, | perunasosetta L\, G | Breadded fish\, sour cream sauce\, mashed potatoes | Kasvispihvejä L\, G | Vegetable patty
