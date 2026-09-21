@@ -6,48 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Ravintola Parvi
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
-UID:parvi-20260907
-DTSTAMP:20260914T101152Z
-DTSTART;TZID=Europe/Helsinki:20260907T120000
-DTEND;TZID=Europe/Helsinki:20260907T130000
-SUMMARY:Mifu ratatoullea M\, L\, G | Marja-banaanismoothie L\, G
-DESCRIPTION:Mifu ratatoullea M\, L\, G\nLounashinta: Paneroituja lohimurekepihvejä\,\nhenkilökunta 9\,80 € /hlö\, kermaviilikastiketta L\, G\, perunaa\nkeittolounas 9\,10 €/hlö ja buffet\nMarja-banaanismoothie L\, G\n13\,50 €. Vierailijat 13\,30 €/hlö\,\nkeittolounas 11\,60 € ja buffet
-END:VEVENT
-BEGIN:VEVENT
-UID:parvi-20260908
-DTSTAMP:20260914T101152Z
-DTSTART;TZID=Europe/Helsinki:20260908T120000
-DTEND;TZID=Europe/Helsinki:20260908T130000
-SUMMARY:Lohikeittoa L\, G | Kesäkurpitsa-pinaattilasagnea L | Kaalikääryleitä\, kermakastiketta L\, G\, perunaa | Omenapiirakkaa\, vaniljakastiketta L\, G
-DESCRIPTION:13\,80 €/hlö| Hyväksymme\nLohikeittoa L\, G\nainoastaan korttimaksut.\nKesäkurpitsa-pinaattilasagnea L\nKaalikääryleitä\, kermakastiketta L\, G\, perunaa\nOmenapiirakkaa\, vaniljakastiketta L\, G
-END:VEVENT
-BEGIN:VEVENT
-UID:parvi-20260909
-DTSTAMP:20260914T101152Z
-DTSTART;TZID=Europe/Helsinki:20260909T120000
-DTEND;TZID=Europe/Helsinki:20260909T130000
-SUMMARY:Broilerikeittoa L\, G | Bataattipihvejä L\, G\, perunasosetta L\, G | Riistakäristystä M\, L\, G\, perunasosetta L\, G | Hedelmää\, keksejä
-DESCRIPTION:Broilerikeittoa L\, G\nBataattipihvejä L\, G\, perunasosetta L\, G\nRiistakäristystä M\, L\, G\, perunasosetta L\, G\nHedelmää\, keksejä
-END:VEVENT
-BEGIN:VEVENT
-UID:parvi-20260910
-DTSTAMP:20260914T101152Z
-DTSTART;TZID=Europe/Helsinki:20260910T120000
-DTEND;TZID=Europe/Helsinki:20260910T130000
-SUMMARY:Hernekeittoa M\, L\, G | Täytettyä paprikaa L\, jogurttikastiketta L\, G\, | kermaperunaa L\, G | Broileririsottoa L\, G | Ohukaisia\, hilloa M\, L\, G\, kermavaahtoa L\, G
-DESCRIPTION:Hernekeittoa M\, L\, G\nTäytettyä paprikaa L\, jogurttikastiketta L\, G\,\nkermaperunaa L\, G\nBroileririsottoa L\, G\nOhukaisia\, hilloa M\, L\, G\, kermavaahtoa L\, G
-END:VEVENT
-BEGIN:VEVENT
-UID:parvi-20260911
-DTSTAMP:20260914T101152Z
-DTSTART;TZID=Europe/Helsinki:20260911T120000
-DTEND;TZID=Europe/Helsinki:20260911T130000
-SUMMARY:Butter tofu L\, G\, riisiä | Lihamureketta M\, L\, kermakastiketta L\, G\, | perunaa | Karpalokiisseliä M\, L\, G\, kermavaahtoa L\, G
-DESCRIPTION:Butter tofu L\, G\, riisiä\nLihamureketta M\, L\, kermakastiketta L\, G\,\nperunaa\nKarpalokiisseliä M\, L\, G\, kermavaahtoa L\, G\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
 UID:parvi-20260914
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260914T120000
 DTEND;TZID=Europe/Helsinki:20260914T130000
 SUMMARY:Täytettyjä punajuuripihvejä L\, G\, yrtti- | Kermajäätelöä L\, G\, mansikkaa M\, L\, G
@@ -55,7 +15,7 @@ DESCRIPTION:Täytettyjä punajuuripihvejä L\, G\, yrtti-\nLounashinta: kermavii
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260915
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260915T120000
 DTEND;TZID=Europe/Helsinki:20260915T130000
 SUMMARY:Lohikeittoa L\, G | Kasvismunakasrullaa L | Paprikapossua punaviinikastikkeessa\, kauraa\, | perunaa | Omenakiisseliä M\, L\, G\, vaniljakastiketta L\, G
@@ -63,7 +23,7 @@ DESCRIPTION:ainoastaan korttimaksut.\nLohikeittoa L\, G\nKasvismunakasrullaa L\n
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260916
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260916T120000
 DTEND;TZID=Europe/Helsinki:20260916T130000
 SUMMARY:Bortskeittoa M\, L\, G | Täytettyä paprikaa L\, rach-kastiketta L\, G\, | kermaperunaa L\, G | Jauhelihalasagnea L | Mustikkarahkaa L\, G
@@ -71,7 +31,7 @@ DESCRIPTION:Bortskeittoa M\, L\, G\nTäytettyä paprikaa L\, rach-kastiketta L\,
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260917
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260917T120000
 DTEND;TZID=Europe/Helsinki:20260917T130000
 SUMMARY:Hernekeittoa M\, L\, G | Punajuuri-nyhtökauravuokaa L\, G | Lohipyöryköitä\, ranch-kastiketta L\, G\, | perunasosetta L\, G | Pannukakkua\, hilloa M\, L\, G\, kermavaahtoa L\, G
@@ -79,7 +39,7 @@ DESCRIPTION:Hernekeittoa M\, L\, G\nPunajuuri-nyhtökauravuokaa L\, G\nLohipyör
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260918
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260918T120000
 DTEND;TZID=Europe/Helsinki:20260918T130000
 SUMMARY:Slaavilaista kasvispataa L\, G | Rosmariinibroileria L\, G\, riisiä/perunaa | Hedelmäsmoothie L\, G
@@ -87,7 +47,7 @@ DESCRIPTION:Slaavilaista kasvispataa L\, G\nRosmariinibroileria L\, G\, riisiä/
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260921
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260921T120000
 DTEND;TZID=Europe/Helsinki:20260921T130000
 SUMMARY:Tarhurin juurespataa L\, G | Mustaherukkasmoothie L\, G
@@ -95,7 +55,7 @@ DESCRIPTION:Tarhurin juurespataa L\, G\nLounashinta: Kanaa sweet & sour M\, L\, 
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260922
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260922T120000
 DTEND;TZID=Europe/Helsinki:20260922T130000
 SUMMARY:Lohikeittoa L\, G | Kreikkalaista kasviskiusausta L\, G | Lihapyöryköitä M\, L\, kermakastiketta\, perunaa | Mangokiisseliä M\, L\, G\, vaniljakastiketta L\, G
@@ -103,7 +63,7 @@ DESCRIPTION:keittolounas 11\,60 € ja buffet\nLohikeittoa L\, G\n13\,80 €/hl�
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260923
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260923T120000
 DTEND;TZID=Europe/Helsinki:20260923T130000
 SUMMARY:Lihakeittoa M\, L\, G | Kasvispyöryköitä\, jogurttikastiketta L\, G\, | kermaperunaa L\, G | Broileri-mangolasagnea L | Jäätelöä L
@@ -111,7 +71,7 @@ DESCRIPTION:Lihakeittoa M\, L\, G\nKasvispyöryköitä\, jogurttikastiketta L\, 
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260924
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260924T120000
 DTEND;TZID=Europe/Helsinki:20260924T130000
 SUMMARY:Hernekeittoa M\, L\, G | Kesäkurpitsa-pinaattilasagnea L | Kebab-tomaattikastiketta M\, L\, G\, | riiriä/lohkoperunaa | Ohukaisia\, hilloa\, kermavaahtoa L\, G
@@ -119,10 +79,90 @@ DESCRIPTION:Hernekeittoa M\, L\, G\nKesäkurpitsa-pinaattilasagnea L\nKebab-toma
 END:VEVENT
 BEGIN:VEVENT
 UID:parvi-20260925
-DTSTAMP:20260914T101152Z
+DTSTAMP:20260921T101752Z
 DTSTART;TZID=Europe/Helsinki:20260925T120000
 DTEND;TZID=Europe/Helsinki:20260925T130000
 SUMMARY:Uunifetapastaa | Paneroitua kalaa\, kermaviilikastiketta L\, G\, | perunasosetta L\, G | Toscaomenaa\, vaniljakastiketta L\, G
 DESCRIPTION:Uunifetapastaa\nPaneroitua kalaa\, kermaviilikastiketta L\, G\,\nperunasosetta L\, G\nToscaomenaa\, vaniljakastiketta L\, G\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20260928
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20260928T120000
+DTEND;TZID=Europe/Helsinki:20260928T130000
+SUMMARY:Kasvispitsaa L | Vadelmakiisseliä M\, L\, G\, vaniljakastiketta L\, G
+DESCRIPTION:Kasvispitsaa L\nLounashinta: Pekonista broileripaistosta L\, G\, riisiä/perunaa\nhenkilökunta 9\,80 € /hlö\,\nVadelmakiisseliä M\, L\, G\, vaniljakastiketta L\, G\nkeittolounas 9\,10 €/hlö ja buffet\n13\,50 €. Vierailijat 13\,30 €/hlö\,
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20260929
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20260929T120000
+DTEND;TZID=Europe/Helsinki:20260929T130000
+SUMMARY:Lohikeittoa L\, G | Linssi-bataattipataa M\, L\, G | Bolognesekastiketta M\, L\, pastaa/perunaa | Banoffee L
+DESCRIPTION:keittolounas 11\,60 € ja buffet\nLohikeittoa L\, G\n13\,80 €/hlö| Hyväksymme\nLinssi-bataattipataa M\, L\, G\nainoastaan korttimaksut.\nBolognesekastiketta M\, L\, pastaa/perunaa\nBanoffee L
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20260930
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20260930T120000
+DTEND;TZID=Europe/Helsinki:20260930T130000
+SUMMARY:Broilerikeittoa L\, G | BBQ kasvispaistosta L\, G | Meksikolaista uunimakkaraa L\, G\, perunasosetta | L\, G | Mustikkakukkosia\, jäätelöä L\, G
+DESCRIPTION:Broilerikeittoa L\, G\nBBQ kasvispaistosta L\, G\nMeksikolaista uunimakkaraa L\, G\, perunasosetta\nL\, G\nMustikkakukkosia\, jäätelöä L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261001
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261001T120000
+DTEND;TZID=Europe/Helsinki:20261001T130000
+SUMMARY:Hernekeittoa M\, L\, G | Tofu-kasvistortilloja L | Paneroituja lohimurekepihvejä\, | kermaviilikastiketta L\, G\, perunaa | Pannukakkua\, hilloa M\, L\, G\, kermavaahtoa L\, G
+DESCRIPTION:Hernekeittoa M\, L\, G\nTofu-kasvistortilloja L\nPaneroituja lohimurekepihvejä\,\nkermaviilikastiketta L\, G\, perunaa\nPannukakkua\, hilloa M\, L\, G\, kermavaahtoa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261002
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261002T120000
+DTEND;TZID=Europe/Helsinki:20261002T130000
+SUMMARY:Chow mein kasviskastiketta M\, L\, G\, riisiä | Hampurilaisia ja ranskalaisia perunoita | Jäätelömix
+DESCRIPTION:Chow mein kasviskastiketta M\, L\, G\, riisiä\nHampurilaisia ja ranskalaisia perunoita\nJäätelömix\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261005
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261005T120000
+DTEND;TZID=Europe/Helsinki:20261005T130000
+SUMMARY:Kasvismoussakaa L\, G | Mansikkakiisseliä M\, L\, G\, basilikakermaa L\, G
+DESCRIPTION:Kasvismoussakaa L\, G\nLounashinta: Lindströminpihvejä\, haudutettua sipulia\,\nhenkilökunta 9\,80 € /hlö\, perunasosetta L\, G\nkeittolounas 9\,10 €/hlö ja buffet\nMansikkakiisseliä M\, L\, G\, basilikakermaa L\, G\n13\,50 €. Vierailijat 13\,30 €/hlö\,\nkeittolounas 11\,60 € ja buffet
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261006
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261006T120000
+DTEND;TZID=Europe/Helsinki:20261006T130000
+SUMMARY:Metsäsienikeittoa L\, G | Täytettyjä pinaattikasvispihvejä L\, G\, tsatsikia L\, | G | Mango-appelsiinibroileria L\, G\, riisiä/perunaa | Kaurahiutale-omenapaistosta\, vaniljavaahtoa L\, G
+DESCRIPTION:13\,80 €/hlö| Hyväksymme\nMetsäsienikeittoa L\, G\nainoastaan korttimaksut.\nTäytettyjä pinaattikasvispihvejä L\, G\, tsatsikia L\,\nG\nMango-appelsiinibroileria L\, G\, riisiä/perunaa\nKaurahiutale-omenapaistosta\, vaniljavaahtoa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261007
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261007T120000
+DTEND;TZID=Europe/Helsinki:20261007T130000
+SUMMARY:Lohikeittoa L\, G | Kasviskormaa M\, L\, G\, basmatiriisiä | Kaalilaatikkoa M\, L\, G / Tomaattista jauheliha- | perunalaatikkoa L\, G | Pannacottaa L\, G\, marjamelbaa M\, L\, G
+DESCRIPTION:Lohikeittoa L\, G\nKasviskormaa M\, L\, G\, basmatiriisiä\nKaalilaatikkoa M\, L\, G / Tomaattista jauheliha-\nperunalaatikkoa L\, G\nPannacottaa L\, G\, marjamelbaa M\, L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261008
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261008T120000
+DTEND;TZID=Europe/Helsinki:20261008T130000
+SUMMARY:Hernekeittoa M\, L\, G | Linssilasagnettea L | Smetanalohta L\, G\, perunaa | Ohukaisia\, hilloa M\, L\, G\, kermavaahtoa L\, G
+DESCRIPTION:Hernekeittoa M\, L\, G\nLinssilasagnettea L\nSmetanalohta L\, G\, perunaa\nOhukaisia\, hilloa M\, L\, G\, kermavaahtoa L\, G
+END:VEVENT
+BEGIN:VEVENT
+UID:parvi-20261009
+DTSTAMP:20260921T101752Z
+DTSTART;TZID=Europe/Helsinki:20261009T120000
+DTEND;TZID=Europe/Helsinki:20261009T130000
+SUMMARY:Paholaisen vegevuokaa M\, L\, G | Viherpippurihärkää L\, G\, riisiä/annan perunaa | Omena-vanilliinikääretorttua L
+DESCRIPTION:Paholaisen vegevuokaa M\, L\, G\nViherpippurihärkää L\, G\, riisiä/annan perunaa\nOmena-vanilliinikääretorttua L\nPowered by TCPDF (www.tcpdf.org)
 END:VEVENT
 END:VCALENDAR
