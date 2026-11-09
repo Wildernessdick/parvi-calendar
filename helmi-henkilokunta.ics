@@ -6,48 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Ravintola Helmi (Henkilökunta ja vieraat)
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
-UID:helmi-henkilokunta-20260921
-DTSTAMP:20261102T130102Z
-DTSTART;TZID=Europe/Helsinki:20260921T120000
-DTEND;TZID=Europe/Helsinki:20260921T130000
-SUMMARY:Mustaherukkasmoothie L \, G
-DESCRIPTION:Lounashinta: Tarhurin juurespataa\, riisiä\, perunaa L \, G\nhenkilökunta: 9\,80 €/hlö\, Broileria hapanimeläkastikkeessa\, riisiä L \, G \,\nkeittolounas 9\,10 €/hlö ja buffet M\n13\,50 €/hlö | vierailijat: 13\,30\nMustaherukkasmoothie L \, G\n€/hlö\, keittolounas 11\,60 €/hlö ja\nbuffet 13\,80 €/hlö
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-henkilokunta-20260922
-DTSTAMP:20261102T130102Z
-DTSTART;TZID=Europe/Helsinki:20260922T120000
-DTEND;TZID=Europe/Helsinki:20260922T130000
-SUMMARY:Kermaista lohikeittoa L \, G | Kreikkalainen kasviskiusaus L \, G | Lihapyöryköitä\, perunaa\, kermakastiketta L | Mangokiisseliä\, vaniljakastiketta L \, G
-DESCRIPTION:Kermaista lohikeittoa L \, G\nKreikkalainen kasviskiusaus L \, G\nLihapyöryköitä\, perunaa\, kermakastiketta L\nMangokiisseliä\, vaniljakastiketta L \, G
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-henkilokunta-20260923
-DTSTAMP:20261102T130102Z
-DTSTART;TZID=Europe/Helsinki:20260923T120000
-DTEND;TZID=Europe/Helsinki:20260923T130000
-SUMMARY:Lihakeittoa L \, G \, M | Kasvispyöryköitä\, kermaperunaa\, | kermaviilikastiketta L \, G | Broileri-mangolasagnea L | Jäätelöä L \, G
-DESCRIPTION:Lihakeittoa L \, G \, M\nKasvispyöryköitä\, kermaperunaa\,\nkermaviilikastiketta L \, G\nBroileri-mangolasagnea L\nJäätelöä L \, G
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-henkilokunta-20260924
-DTSTAMP:20261102T130102Z
-DTSTART;TZID=Europe/Helsinki:20260924T120000
-DTEND;TZID=Europe/Helsinki:20260924T130000
-SUMMARY:Hernekeittoa L \, G \, M | Pinaatti-kesäkurpitsalasagnea L | Kebabbia tomaattikastikkeessa\, riisiä\, | lohkoperunaa L \, G \, M | Ohukaisia\, hilloa\, kermavaahtoa L
-DESCRIPTION:Hernekeittoa L \, G \, M\nPinaatti-kesäkurpitsalasagnea L\nKebabbia tomaattikastikkeessa\, riisiä\,\nlohkoperunaa L \, G \, M\nOhukaisia\, hilloa\, kermavaahtoa L
-END:VEVENT
-BEGIN:VEVENT
-UID:helmi-henkilokunta-20260925
-DTSTAMP:20261102T130102Z
-DTSTART;TZID=Europe/Helsinki:20260925T120000
-DTEND;TZID=Europe/Helsinki:20260925T130000
-SUMMARY:Kasvisruokaa talon tapaan L | Paneroitua kalaa\, perunasosetta\, | kermaviilikastiketta L | Toscaomenat\, vaniljavaahtoa L \, G
-DESCRIPTION:Kasvisruokaa talon tapaan L\nPaneroitua kalaa\, perunasosetta\,\nkermaviilikastiketta L\nToscaomenat\, vaniljavaahtoa L \, G\nPowered by TCPDF (www.tcpdf.org)
-END:VEVENT
-BEGIN:VEVENT
 UID:helmi-henkilokunta-20261005
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261005T120000
 DTEND;TZID=Europe/Helsinki:20261005T130000
 SUMMARY:Marjakiisseliä\, kermavaahtoa L \, G
@@ -55,7 +15,7 @@ DESCRIPTION:Lounashinta: Kasvismoussakaa L \, G\nhenkilökunta: 9\,80 €/hlö\,
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261006
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261006T120000
 DTEND;TZID=Europe/Helsinki:20261006T130000
 SUMMARY:Kermaista lohikeittoa L \, G | Kasvispihvit\, tsatsikikastiketta\, perunaa L | Mango-appelsiinibroileria\, riisiä\, perunaa L \, G | Kaura-omenapaistosta\, vaniljavaahtoa L
@@ -63,7 +23,7 @@ DESCRIPTION:Kermaista lohikeittoa L \, G\nKasvispihvit\, tsatsikikastiketta\, pe
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261007
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261007T120000
 DTEND;TZID=Europe/Helsinki:20261007T130000
 SUMMARY:Koskenlaskijan sienikeittoa L \, G | Kasviskormaa\, basmatiriisiä L \, G \, M | Kaalilaatikkoa L \, M | Lihamureketta\, kermakastiketta\, perunaa L | Pannacotta\, marjakastiketta L \, G
@@ -71,7 +31,7 @@ DESCRIPTION:Koskenlaskijan sienikeittoa L \, G\nKasviskormaa\, basmatiriisiä L 
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261008
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261008T120000
 DTEND;TZID=Europe/Helsinki:20261008T130000
 SUMMARY:Hernekeittoa L \, G \, M | Kasvispyöryköitä\, kermaviilikastiketta\, perunaa L | \, G | Smetana uunilohta\, perunaa L \, G | Ohukaisia\, hilloa\, kermavaahtoa L
@@ -79,7 +39,7 @@ DESCRIPTION:Hernekeittoa L \, G \, M\nKasvispyöryköitä\, kermaviilikastiketta
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261009
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261009T120000
 DTEND;TZID=Europe/Helsinki:20261009T130000
 SUMMARY:Kasvislasagnettea L | Italialaiset lihapyörykät\, kermaperunaa L \, G | Tonnikalapastavuokaa L | Jälkiruokabuffet L \, G
@@ -87,7 +47,7 @@ DESCRIPTION:Kasvislasagnettea L\nItalialaiset lihapyörykät\, kermaperunaa L \,
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261012
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261012T120000
 DTEND;TZID=Europe/Helsinki:20261012T130000
 SUMMARY:Lounas – Ravintola Parvi
@@ -95,7 +55,7 @@ DESCRIPTION:Lounashinta: Ravintola suljettu syysloman ajan 12.10-16.10\nhenkilö
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261019
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261019T120000
 DTEND;TZID=Europe/Helsinki:20261019T130000
 SUMMARY:Jogurtti-sitruunavaahtoa L \, G
@@ -103,7 +63,7 @@ DESCRIPTION:Lounashinta: Välimeren kasvispataa\, perunaa L \, G\nhenkilökunta:
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261020
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261020T120000
 DTEND;TZID=Europe/Helsinki:20261020T130000
 SUMMARY:Kermaista lohikeittoa L \, G | Pinaatti-kesäkurpitsalasagnea L | Kaalikääryleitä\, perunaa\, kermakastiketta L \, G | Kinkku-pekonikastiketta\, pastaa L | Omenapiirakkaa\, vaniljavaah…
@@ -111,7 +71,7 @@ DESCRIPTION:Kermaista lohikeittoa L \, G\nPinaatti-kesäkurpitsalasagnea L\nKaal
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261021
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261021T120000
 DTEND;TZID=Europe/Helsinki:20261021T130000
 SUMMARY:Broilerikeittoa L \, G \, M | Kasvispihvit\, perunasosetta\, kermaviilikastiketta | L \, G | Riistakäristystä\, perunasosetta L \, G | Puolukkapannacotta L \, G
@@ -119,7 +79,7 @@ DESCRIPTION:Broilerikeittoa L \, G \, M\nKasvispihvit\, perunasosetta\, kermavii
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261022
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261022T120000
 DTEND;TZID=Europe/Helsinki:20261022T130000
 SUMMARY:Hernekeittoa L \, G \, M | Täytetyt paprikat\, kermaperunaa\, | jogurttikastiketta L \, G | Kermaista broileririsottoa L \, G | Ohukaisia\, hilloa\, kermavaahtoa L
@@ -127,7 +87,7 @@ DESCRIPTION:Hernekeittoa L \, G \, M\nTäytetyt paprikat\, kermaperunaa\,\njogur
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261023
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261023T120000
 DTEND;TZID=Europe/Helsinki:20261023T130000
 SUMMARY:Butter tofu\, riisi L \, G | Jauhelihamureketta\, perunaa\, kermakastiketta L | Mustikkarahkaa L \, G
@@ -135,7 +95,7 @@ DESCRIPTION:Butter tofu\, riisi L \, G\nJauhelihamureketta\, perunaa\, kermakast
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261026
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261026T120000
 DTEND;TZID=Europe/Helsinki:20261026T130000
 SUMMARY:Jäätelöä L \, G
@@ -143,7 +103,7 @@ DESCRIPTION:Lounashinta: Punajuuri-aurajuustopihvit\, kermaviilikastiketta\,\nhe
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261027
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261027T120000
 DTEND;TZID=Europe/Helsinki:20261027T130000
 SUMMARY:Kermaista lohikeittoa L \, G | Kasvis-munakasrullaa\, perunaa L | Rosmariinibroileria\, riisiä L \, G | Omena-kanelikiisseliä\, vaniljakastiketta L \, G
@@ -151,7 +111,7 @@ DESCRIPTION:Kermaista lohikeittoa L \, G\nKasvis-munakasrullaa\, perunaa L\nRosm
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261028
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261028T120000
 DTEND;TZID=Europe/Helsinki:20261028T130000
 SUMMARY:Bortskeittoa\, smetanaa L \, G | Kasviskormaa\, basmatiriisiä L \, G | Jauhelihalasagnea L | Marjarahkaa L \, G
@@ -159,7 +119,7 @@ DESCRIPTION:Bortskeittoa\, smetanaa L \, G\nKasviskormaa\, basmatiriisiä L \, G
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261029
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261029T120000
 DTEND;TZID=Europe/Helsinki:20261029T130000
 SUMMARY:Hernekeittoa L \, G \, M | Punajuuri-nyhtökauravuokaa L \, G | Lohipyöryköitä\, perunasosetta\, ranch-kastiketta | L \, G | Pannukakkua\, hilloa\, kermavaahtoa L
@@ -167,7 +127,7 @@ DESCRIPTION:Hernekeittoa L \, G \, M\nPunajuuri-nyhtökauravuokaa L \, G\nLohipy
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261030
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261030T120000
 DTEND;TZID=Europe/Helsinki:20261030T130000
 SUMMARY:Tarhurin juurespataa\, riisiä L \, G | Broileria hapanimeläkastikkeessa\, riisiä L \, G \, | M | Hedelmäsmoothie L \, G
@@ -175,7 +135,7 @@ DESCRIPTION:Tarhurin juurespataa\, riisiä L \, G\nBroileria hapanimeläkastikke
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261102
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261102T120000
 DTEND;TZID=Europe/Helsinki:20261102T130000
 SUMMARY:Jogurtti-sitruunavaahtoa L \, G
@@ -183,7 +143,7 @@ DESCRIPTION:Lounashinta: Slaavilaista kasvispataa\, basmatiriisiä L \, G\nhenki
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261103
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261103T120000
 DTEND;TZID=Europe/Helsinki:20261103T130000
 SUMMARY:Kermaista lohikeittoa L \, G | Kasvis-nuudeliwokkia L | Burgundinpataa\, riisiä\, perunaa L \, G \, M | Mangokiisseliä\, vaniljakastiketta L \, G
@@ -191,7 +151,7 @@ DESCRIPTION:buffet 13\,80 €/hlö\nKermaista lohikeittoa L \, G\nKasvis-nuudeli
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261104
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261104T120000
 DTEND;TZID=Europe/Helsinki:20261104T130000
 SUMMARY:Lihakeittoa L \, G \, M | Värikkäät kasvispyörykät\, kermaperunaa\, | kermaviilikastiketta L \, G | Broileri-mangolasagnea L | Makea kahvileipä L
@@ -199,7 +159,7 @@ DESCRIPTION:Lihakeittoa L \, G \, M\nVärikkäät kasvispyörykät\, kermaperuna
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261105
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261105T120000
 DTEND;TZID=Europe/Helsinki:20261105T130000
 SUMMARY:Hernekeittoa L \, G \, M | Tomaattista tofu-munakoisovuokaa L \, G | Kebabbia tomaattikastikkeessa\, riisiä\, | lohkoperunaa L \, G \, M | Ohukaisia\, hilloa\, kermavaahtoa L
@@ -207,7 +167,7 @@ DESCRIPTION:Hernekeittoa L \, G \, M\nTomaattista tofu-munakoisovuokaa L \, G\nK
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261106
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261106T120000
 DTEND;TZID=Europe/Helsinki:20261106T130000
 SUMMARY:Kasvispihvit\, yrttikastiketta\, perunasosetta L \, G | Paneroitua kalaa\, yrttikastiketta\, perunasosetta | L | Italialaiset lihapyörykät\, perunasosetta L \, G | Voisilmäpulla L
@@ -215,42 +175,82 @@ DESCRIPTION:Kasvispihvit\, yrttikastiketta\, perunasosetta L \, G\nPaneroitua ka
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261109
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261109T120000
 DTEND;TZID=Europe/Helsinki:20261109T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:Lounashinta:\nhenkilökunta: 9\,80 €/hlö\,\nkeittolounas 9\,10 €/hlö ja buffet\n13\,50 €/hlö | vierailijat: 13\,30\n€/hlö\, keittolounas 11\,60 €/hlö ja
+SUMMARY:Kuningatarkiisseliä\, vaniljakastiketta L \, G
+DESCRIPTION:Lounashinta: Kasvispizzaa L\nhenkilökunta: 9\,80 €/hlö\, Pekoni-broileripaistosta\, riisiä\, perunaa L \, G\nkeittolounas 9\,10 €/hlö ja buffet\nKuningatarkiisseliä\, vaniljakastiketta L \, G\n13\,50 €/hlö | vierailijat: 13\,30\n€/hlö\, keittolounas 11\,60 €/hlö ja
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261110
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261110T120000
 DTEND;TZID=Europe/Helsinki:20261110T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:buffet 13\,80 €/hlö
+SUMMARY:Pinaattikeittoa L | BBQ-kasvispaistosta L \, G | Jauhelihamureketta\, sienikastiketta\, | kermaperunaa L | Banoffee L
+DESCRIPTION:buffet 13\,80 €/hlö\nPinaattikeittoa L\nBBQ-kasvispaistosta L \, G\nJauhelihamureketta\, sienikastiketta\,\nkermaperunaa L\nBanoffee L
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261111
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261111T120000
 DTEND;TZID=Europe/Helsinki:20261111T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
+SUMMARY:Linssi-bolognesekastiketta\, pastaa\, perunaa L | Bolognesekastiketta\, pastaa\, perunaa L | Mustikkakukko\, vaniljavaahtoa L
+DESCRIPTION:Linssi-bolognesekastiketta\, pastaa\, perunaa L\nBolognesekastiketta\, pastaa\, perunaa L\nMustikkakukko\, vaniljavaahtoa L
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261112
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261112T120000
 DTEND;TZID=Europe/Helsinki:20261112T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:
+SUMMARY:Hernekeittoa L \, G \, M | Täytetyt paprikat\, kermaviilikastiketta\, perunaa L | \, G | Paneroituja lohipihvejä\, kermaviilikastiketta\, | perunaa L | Pannukakkua\, hilloa\, kermavaahtoa L
+DESCRIPTION:Hernekeittoa L \, G \, M\nTäytetyt paprikat\, kermaviilikastiketta\, perunaa L\n\, G\nPaneroituja lohipihvejä\, kermaviilikastiketta\,\nperunaa L\nPannukakkua\, hilloa\, kermavaahtoa L
 END:VEVENT
 BEGIN:VEVENT
 UID:helmi-henkilokunta-20261113
-DTSTAMP:20261102T130102Z
+DTSTAMP:20261109T133253Z
 DTSTART;TZID=Europe/Helsinki:20261113T120000
 DTEND;TZID=Europe/Helsinki:20261113T130000
-SUMMARY:Lounas – Ravintola Parvi
-DESCRIPTION:Powered by TCPDF (www.tcpdf.org)
+SUMMARY:Kukkakaalikormaa\, basmatiriisiä L \, G | Sadonkorjuun lihapataa\, kermaperunaa L \, G | Pappilan hätävara L
+DESCRIPTION:Kukkakaalikormaa\, basmatiriisiä L \, G\nSadonkorjuun lihapataa\, kermaperunaa L \, G\nPappilan hätävara L\nPowered by TCPDF (www.tcpdf.org)
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-henkilokunta-20261116
+DTSTAMP:20261109T133253Z
+DTSTART;TZID=Europe/Helsinki:20261116T120000
+DTEND;TZID=Europe/Helsinki:20261116T130000
+SUMMARY:Mansikkarahkaa L \, G
+DESCRIPTION:Lounashinta: Kasvismoussaka L \, G\nhenkilökunta: 9\,80 €/hlö\, Lindströminpihvit\, haudutettua sipulia\,\nkeittolounas 9\,10 €/hlö ja buffet perunasosetta L\n13\,50 €/hlö | vierailijat: 13\,30\nMansikkarahkaa L \, G\n€/hlö\, keittolounas 11\,60 €/hlö ja\nbuffet 13\,80 €/hlö
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-henkilokunta-20261117
+DTSTAMP:20261109T133253Z
+DTSTART;TZID=Europe/Helsinki:20261117T120000
+DTEND;TZID=Europe/Helsinki:20261117T130000
+SUMMARY:Koskenlaskijan sienikeittoa L \, G | Chili sin carne\, riisiä\, perunaa L \, G | Jamaicalaista broileria\, riisiä\, perunaa L \, G | Suklaakiisseliä\, vaniljakastiketta L \, G
+DESCRIPTION:Koskenlaskijan sienikeittoa L \, G\nChili sin carne\, riisiä\, perunaa L \, G\nJamaicalaista broileria\, riisiä\, perunaa L \, G\nSuklaakiisseliä\, vaniljakastiketta L \, G
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-henkilokunta-20261118
+DTSTAMP:20261109T133253Z
+DTSTART;TZID=Europe/Helsinki:20261118T120000
+DTEND;TZID=Europe/Helsinki:20261118T130000
+SUMMARY:Kermaista lohikeittoa L \, G | Ratatouille\, basmatiriisiä L \, G | Tomaattinen jauheliha-perunalaatikko L \, G | Kaalilaatikkoa L \, M | Pannacotta\, karpalo-puolukkakastiketta L \, G
+DESCRIPTION:Kermaista lohikeittoa L \, G\nRatatouille\, basmatiriisiä L \, G\nTomaattinen jauheliha-perunalaatikko L \, G\nKaalilaatikkoa L \, M\nPannacotta\, karpalo-puolukkakastiketta L \, G
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-henkilokunta-20261119
+DTSTAMP:20261109T133253Z
+DTSTART;TZID=Europe/Helsinki:20261119T120000
+DTEND;TZID=Europe/Helsinki:20261119T130000
+SUMMARY:Hernekeittoa L \, G \, M | Kasvispyörykät\, kermaviilikastiketta\, perunaa L \, | G | Smetana uunilohta\, perunaa L \, G | Ohukaisia\, hilloa\, kermavaahtoa L
+DESCRIPTION:Hernekeittoa L \, G \, M\nKasvispyörykät\, kermaviilikastiketta\, perunaa L \,\nG\nSmetana uunilohta\, perunaa L \, G\nOhukaisia\, hilloa\, kermavaahtoa L
+END:VEVENT
+BEGIN:VEVENT
+UID:helmi-henkilokunta-20261120
+DTSTAMP:20261109T133253Z
+DTSTART;TZID=Europe/Helsinki:20261120T120000
+DTEND;TZID=Europe/Helsinki:20261120T130000
+SUMMARY:Myskikurpitsalasagnea L | Viherpippurihärkää\, riisiä\, perunaa L \, G | Hedelmäsalaattia\, vaniljakastiketta L \, G
+DESCRIPTION:Myskikurpitsalasagnea L\nViherpippurihärkää\, riisiä\, perunaa L \, G\nHedelmäsalaattia\, vaniljakastiketta L \, G\nPowered by TCPDF (www.tcpdf.org)
 END:VEVENT
 END:VCALENDAR
